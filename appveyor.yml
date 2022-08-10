@@ -17,7 +17,7 @@ after_build:
 artifacts:
 - path: devbuild.zip
   name: Development build of VT.NET
-- path: VT.NET\bin\Debug\VT.NET.*.nupkg
+- path: VT.NET\bin\Debug\Aptivi.VT.NET.*.nupkg
 deploy:
 - provider: NuGet
   server: https://www.nuget.org/api/v2/package

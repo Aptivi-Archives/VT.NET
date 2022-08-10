@@ -28,6 +28,6 @@ jobs:
     - name: Package Publication
       run: |
         $path = "VT.NET\bin\Release"
-        $FileName = Get-ChildItem -Path $path -Name -Filter "VT.NET.*"
+        $FileName = Get-ChildItem -Path $path -Name -Filter "Aptivi.VT.NET.*"
         nuget push "$path\$FileName" -source "nuget.org"
         

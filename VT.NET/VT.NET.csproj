@@ -7,6 +7,7 @@
     <Authors>Aptivi</Authors>
     <Description>VT filtering library for .NET</Description>
     <Copyright>Copyright (c) 2022 Aptivi</Copyright>
+    <PackageId>Aptivi.VT.NET</PackageId>
     <PackageProjectUrl>https://github.com/Aptivi/VT.NET</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Aptivi/VT.NET</RepositoryUrl>
