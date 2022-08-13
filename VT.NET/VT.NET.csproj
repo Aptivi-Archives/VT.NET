@@ -15,12 +15,8 @@
     <PackageTags>vt;sequences;csharp;library;regex</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <ApplicationIcon>OfficialAppIcon-VT.NET.ico</ApplicationIcon>
     <PackageIcon>OfficialAppIcon-VT.NET-512.png</PackageIcon>
   </PropertyGroup>
-  <ItemGroup>
-    <Content Include="OfficialAppIcon-VT.NET.ico" />
-  </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md">
       <Pack>True</Pack>
