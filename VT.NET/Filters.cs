@@ -35,10 +35,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the VT sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the VT sequences</returns>
-        public static string FilterVTSequences(string Text, string replace = "")
+        public static string FilterVTSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter all sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.AllVTSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.AllVTSequences, replace, options);
             return Text;
         }
         
@@ -48,10 +48,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the CSI sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the CSI sequences</returns>
-        public static string FilterCSISequences(string Text, string replace = "")
+        public static string FilterCSISequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter CSI sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.CSISequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.CSISequences, replace, options);
             return Text;
         }
         
@@ -61,10 +61,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the OSC sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the OSC sequences</returns>
-        public static string FilterOSCSequences(string Text, string replace = "")
+        public static string FilterOSCSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter OSC sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.OSCSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.OSCSequences, replace, options);
             return Text;
         }
         
@@ -74,10 +74,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the ESC sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the ESC sequences</returns>
-        public static string FilterESCSequences(string Text, string replace = "")
+        public static string FilterESCSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter ESC sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.ESCSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.ESCSequences, replace, options);
             return Text;
         }
         
@@ -87,10 +87,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the APC sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the APC sequences</returns>
-        public static string FilterAPCSequences(string Text, string replace = "")
+        public static string FilterAPCSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter APC sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.APCSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.APCSequences, replace, options);
             return Text;
         }
         
@@ -100,10 +100,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the DCS sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the DCS sequences</returns>
-        public static string FilterDCSSequences(string Text, string replace = "")
+        public static string FilterDCSSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter DCS sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.DCSSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.DCSSequences, replace, options);
             return Text;
         }
         
@@ -113,10 +113,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the PM sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the PM sequences</returns>
-        public static string FilterPMSequences(string Text, string replace = "")
+        public static string FilterPMSequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter PM sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.PMSequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.PMSequences, replace, options);
             return Text;
         }
         
@@ -126,10 +126,10 @@ namespace VT.NET
         /// <param name="Text">The text that contains the C1 sequences</param>
         /// <param name="replace">Replace the sequences with this text</param>
         /// <returns>The text that doesn't contain the C1 sequences</returns>
-        public static string FilterC1Sequences(string Text, string replace = "")
+        public static string FilterC1Sequences(string Text, string replace = "", RegexOptions options = RegexOptions.None)
         {
             // Filter C1 sequences
-            Text = Regex.Replace(Text, RegexVTExpressions.C1Sequences, replace);
+            Text = Regex.Replace(Text, RegexVTExpressions.C1Sequences, replace, options);
             return Text;
         }
     }
