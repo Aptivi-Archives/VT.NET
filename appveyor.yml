@@ -1,10 +1,10 @@
-version: 0.1.x-{build}
+version: 0.2.x-{build}
 image: Visual Studio 2022
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
   version: ''
-  package_version: 0.1.0-build{build}
+  package_version: 0.2.0-build{build}
 environment:
   WEBHOOK_URL:
     secure: p3nnkhnWtqFFH8UJ1eaKFfRjFPlOVhNtmLjd94R7+KTjiPEnZpqV5EESGELBq9x+VqdZwEgxmGBk5E51HfjRg0zx7Ykr9t58kkWSsBocDsGGYbXERYFG6p2enLQqQUJtMRJaHgEBXArAGqpBn1AYwv8eF69OiRJbp1SIBQYjsAI=
