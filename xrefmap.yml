@@ -13,12 +13,12 @@ references:
   commentId: T:VT.NET.Filters
   fullName: VT.NET.Filters
   nameWithType: Filters
-- uid: VT.NET.Filters.FilterAPCSequences(System.String,System.String)
-  name: FilterAPCSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterAPCSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterAPCSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterAPCSequences(System.String, System.String)
-  nameWithType: Filters.FilterAPCSequences(String, String)
+- uid: VT.NET.Filters.FilterAPCSequences(System.String,System.String,RegexOptions)
+  name: FilterAPCSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterAPCSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterAPCSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterAPCSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterAPCSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterAPCSequences*
   name: FilterAPCSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterAPCSequences_
@@ -26,12 +26,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterAPCSequences
   nameWithType: Filters.FilterAPCSequences
-- uid: VT.NET.Filters.FilterC1Sequences(System.String,System.String)
-  name: FilterC1Sequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterC1Sequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterC1Sequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterC1Sequences(System.String, System.String)
-  nameWithType: Filters.FilterC1Sequences(String, String)
+- uid: VT.NET.Filters.FilterC1Sequences(System.String,System.String,RegexOptions)
+  name: FilterC1Sequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterC1Sequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterC1Sequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterC1Sequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterC1Sequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterC1Sequences*
   name: FilterC1Sequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterC1Sequences_
@@ -39,12 +39,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterC1Sequences
   nameWithType: Filters.FilterC1Sequences
-- uid: VT.NET.Filters.FilterCSISequences(System.String,System.String)
-  name: FilterCSISequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterCSISequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterCSISequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterCSISequences(System.String, System.String)
-  nameWithType: Filters.FilterCSISequences(String, String)
+- uid: VT.NET.Filters.FilterCSISequences(System.String,System.String,RegexOptions)
+  name: FilterCSISequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterCSISequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterCSISequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterCSISequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterCSISequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterCSISequences*
   name: FilterCSISequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterCSISequences_
@@ -52,12 +52,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterCSISequences
   nameWithType: Filters.FilterCSISequences
-- uid: VT.NET.Filters.FilterDCSSequences(System.String,System.String)
-  name: FilterDCSSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterDCSSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterDCSSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterDCSSequences(System.String, System.String)
-  nameWithType: Filters.FilterDCSSequences(String, String)
+- uid: VT.NET.Filters.FilterDCSSequences(System.String,System.String,RegexOptions)
+  name: FilterDCSSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterDCSSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterDCSSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterDCSSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterDCSSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterDCSSequences*
   name: FilterDCSSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterDCSSequences_
@@ -65,12 +65,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterDCSSequences
   nameWithType: Filters.FilterDCSSequences
-- uid: VT.NET.Filters.FilterESCSequences(System.String,System.String)
-  name: FilterESCSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterESCSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterESCSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterESCSequences(System.String, System.String)
-  nameWithType: Filters.FilterESCSequences(String, String)
+- uid: VT.NET.Filters.FilterESCSequences(System.String,System.String,RegexOptions)
+  name: FilterESCSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterESCSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterESCSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterESCSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterESCSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterESCSequences*
   name: FilterESCSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterESCSequences_
@@ -78,12 +78,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterESCSequences
   nameWithType: Filters.FilterESCSequences
-- uid: VT.NET.Filters.FilterOSCSequences(System.String,System.String)
-  name: FilterOSCSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterOSCSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterOSCSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterOSCSequences(System.String, System.String)
-  nameWithType: Filters.FilterOSCSequences(String, String)
+- uid: VT.NET.Filters.FilterOSCSequences(System.String,System.String,RegexOptions)
+  name: FilterOSCSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterOSCSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterOSCSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterOSCSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterOSCSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterOSCSequences*
   name: FilterOSCSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterOSCSequences_
@@ -91,12 +91,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterOSCSequences
   nameWithType: Filters.FilterOSCSequences
-- uid: VT.NET.Filters.FilterPMSequences(System.String,System.String)
-  name: FilterPMSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterPMSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterPMSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterPMSequences(System.String, System.String)
-  nameWithType: Filters.FilterPMSequences(String, String)
+- uid: VT.NET.Filters.FilterPMSequences(System.String,System.String,RegexOptions)
+  name: FilterPMSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterPMSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterPMSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterPMSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterPMSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterPMSequences*
   name: FilterPMSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterPMSequences_
@@ -104,12 +104,12 @@ references:
   isSpec: "True"
   fullName: VT.NET.Filters.FilterPMSequences
   nameWithType: Filters.FilterPMSequences
-- uid: VT.NET.Filters.FilterVTSequences(System.String,System.String)
-  name: FilterVTSequences(String, String)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterVTSequences_System_String_System_String_
-  commentId: M:VT.NET.Filters.FilterVTSequences(System.String,System.String)
-  fullName: VT.NET.Filters.FilterVTSequences(System.String, System.String)
-  nameWithType: Filters.FilterVTSequences(String, String)
+- uid: VT.NET.Filters.FilterVTSequences(System.String,System.String,RegexOptions)
+  name: FilterVTSequences(String, String, RegexOptions)
+  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterVTSequences_System_String_System_String_RegexOptions_
+  commentId: M:VT.NET.Filters.FilterVTSequences(System.String,System.String,RegexOptions)
+  fullName: VT.NET.Filters.FilterVTSequences(System.String, System.String, RegexOptions)
+  nameWithType: Filters.FilterVTSequences(String, String, RegexOptions)
 - uid: VT.NET.Filters.FilterVTSequences*
   name: FilterVTSequences
   href: api/VT.NET.Filters.html#VT_NET_Filters_FilterVTSequences_
@@ -129,6 +129,12 @@ references:
   commentId: M:VT.NET.Matches.MatchAPCSequences(System.String)
   fullName: VT.NET.Matches.MatchAPCSequences(System.String)
   nameWithType: Matches.MatchAPCSequences(String)
+- uid: VT.NET.Matches.MatchAPCSequences(System.String,RegexOptions)
+  name: MatchAPCSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchAPCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchAPCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchAPCSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchAPCSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchAPCSequences*
   name: MatchAPCSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchAPCSequences_
@@ -142,6 +148,12 @@ references:
   commentId: M:VT.NET.Matches.MatchC1Sequences(System.String)
   fullName: VT.NET.Matches.MatchC1Sequences(System.String)
   nameWithType: Matches.MatchC1Sequences(String)
+- uid: VT.NET.Matches.MatchC1Sequences(System.String,RegexOptions)
+  name: MatchC1Sequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchC1Sequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchC1Sequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchC1Sequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchC1Sequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchC1Sequences*
   name: MatchC1Sequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchC1Sequences_
@@ -155,6 +167,12 @@ references:
   commentId: M:VT.NET.Matches.MatchCSISequences(System.String)
   fullName: VT.NET.Matches.MatchCSISequences(System.String)
   nameWithType: Matches.MatchCSISequences(String)
+- uid: VT.NET.Matches.MatchCSISequences(System.String,RegexOptions)
+  name: MatchCSISequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchCSISequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchCSISequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchCSISequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchCSISequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchCSISequences*
   name: MatchCSISequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchCSISequences_
@@ -168,6 +186,12 @@ references:
   commentId: M:VT.NET.Matches.MatchDCSSequences(System.String)
   fullName: VT.NET.Matches.MatchDCSSequences(System.String)
   nameWithType: Matches.MatchDCSSequences(String)
+- uid: VT.NET.Matches.MatchDCSSequences(System.String,RegexOptions)
+  name: MatchDCSSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchDCSSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchDCSSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchDCSSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchDCSSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchDCSSequences*
   name: MatchDCSSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchDCSSequences_
@@ -181,6 +205,12 @@ references:
   commentId: M:VT.NET.Matches.MatchESCSequences(System.String)
   fullName: VT.NET.Matches.MatchESCSequences(System.String)
   nameWithType: Matches.MatchESCSequences(String)
+- uid: VT.NET.Matches.MatchESCSequences(System.String,RegexOptions)
+  name: MatchESCSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchESCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchESCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchESCSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchESCSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchESCSequences*
   name: MatchESCSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchESCSequences_
@@ -194,6 +224,12 @@ references:
   commentId: M:VT.NET.Matches.MatchOSCSequences(System.String)
   fullName: VT.NET.Matches.MatchOSCSequences(System.String)
   nameWithType: Matches.MatchOSCSequences(String)
+- uid: VT.NET.Matches.MatchOSCSequences(System.String,RegexOptions)
+  name: MatchOSCSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchOSCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchOSCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchOSCSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchOSCSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchOSCSequences*
   name: MatchOSCSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchOSCSequences_
@@ -207,6 +243,12 @@ references:
   commentId: M:VT.NET.Matches.MatchPMSequences(System.String)
   fullName: VT.NET.Matches.MatchPMSequences(System.String)
   nameWithType: Matches.MatchPMSequences(String)
+- uid: VT.NET.Matches.MatchPMSequences(System.String,RegexOptions)
+  name: MatchPMSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchPMSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchPMSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchPMSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchPMSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchPMSequences*
   name: MatchPMSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchPMSequences_
@@ -220,6 +262,12 @@ references:
   commentId: M:VT.NET.Matches.MatchVTSequences(System.String)
   fullName: VT.NET.Matches.MatchVTSequences(System.String)
   nameWithType: Matches.MatchVTSequences(String)
+- uid: VT.NET.Matches.MatchVTSequences(System.String,RegexOptions)
+  name: MatchVTSequences(String, RegexOptions)
+  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchVTSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Matches.MatchVTSequences(System.String,RegexOptions)
+  fullName: VT.NET.Matches.MatchVTSequences(System.String, RegexOptions)
+  nameWithType: Matches.MatchVTSequences(String, RegexOptions)
 - uid: VT.NET.Matches.MatchVTSequences*
   name: MatchVTSequences
   href: api/VT.NET.Matches.html#VT_NET_Matches_MatchVTSequences_
@@ -227,6 +275,164 @@ references:
   isSpec: "True"
   fullName: VT.NET.Matches.MatchVTSequences
   nameWithType: Matches.MatchVTSequences
+- uid: VT.NET.Queries
+  name: Queries
+  href: api/VT.NET.Queries.html
+  commentId: T:VT.NET.Queries
+  fullName: VT.NET.Queries
+  nameWithType: Queries
+- uid: VT.NET.Queries.IsMatchAPCSequences(System.String)
+  name: IsMatchAPCSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchAPCSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchAPCSequences(System.String)
+  nameWithType: Queries.IsMatchAPCSequences(String)
+- uid: VT.NET.Queries.IsMatchAPCSequences(System.String,RegexOptions)
+  name: IsMatchAPCSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchAPCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchAPCSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchAPCSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchAPCSequences*
+  name: IsMatchAPCSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchAPCSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchAPCSequences
+  nameWithType: Queries.IsMatchAPCSequences
+- uid: VT.NET.Queries.IsMatchC1Sequences(System.String)
+  name: IsMatchC1Sequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchC1Sequences(System.String)
+  fullName: VT.NET.Queries.IsMatchC1Sequences(System.String)
+  nameWithType: Queries.IsMatchC1Sequences(String)
+- uid: VT.NET.Queries.IsMatchC1Sequences(System.String,RegexOptions)
+  name: IsMatchC1Sequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchC1Sequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchC1Sequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchC1Sequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchC1Sequences*
+  name: IsMatchC1Sequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_
+  commentId: Overload:VT.NET.Queries.IsMatchC1Sequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchC1Sequences
+  nameWithType: Queries.IsMatchC1Sequences
+- uid: VT.NET.Queries.IsMatchCSISequences(System.String)
+  name: IsMatchCSISequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchCSISequences(System.String)
+  fullName: VT.NET.Queries.IsMatchCSISequences(System.String)
+  nameWithType: Queries.IsMatchCSISequences(String)
+- uid: VT.NET.Queries.IsMatchCSISequences(System.String,RegexOptions)
+  name: IsMatchCSISequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchCSISequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchCSISequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchCSISequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchCSISequences*
+  name: IsMatchCSISequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_
+  commentId: Overload:VT.NET.Queries.IsMatchCSISequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchCSISequences
+  nameWithType: Queries.IsMatchCSISequences
+- uid: VT.NET.Queries.IsMatchDCSSequences(System.String)
+  name: IsMatchDCSSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchDCSSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchDCSSequences(System.String)
+  nameWithType: Queries.IsMatchDCSSequences(String)
+- uid: VT.NET.Queries.IsMatchDCSSequences(System.String,RegexOptions)
+  name: IsMatchDCSSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchDCSSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchDCSSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchDCSSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchDCSSequences*
+  name: IsMatchDCSSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchDCSSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchDCSSequences
+  nameWithType: Queries.IsMatchDCSSequences
+- uid: VT.NET.Queries.IsMatchESCSequences(System.String)
+  name: IsMatchESCSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchESCSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchESCSequences(System.String)
+  nameWithType: Queries.IsMatchESCSequences(String)
+- uid: VT.NET.Queries.IsMatchESCSequences(System.String,RegexOptions)
+  name: IsMatchESCSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchESCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchESCSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchESCSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchESCSequences*
+  name: IsMatchESCSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchESCSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchESCSequences
+  nameWithType: Queries.IsMatchESCSequences
+- uid: VT.NET.Queries.IsMatchOSCSequences(System.String)
+  name: IsMatchOSCSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchOSCSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchOSCSequences(System.String)
+  nameWithType: Queries.IsMatchOSCSequences(String)
+- uid: VT.NET.Queries.IsMatchOSCSequences(System.String,RegexOptions)
+  name: IsMatchOSCSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchOSCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchOSCSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchOSCSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchOSCSequences*
+  name: IsMatchOSCSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchOSCSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchOSCSequences
+  nameWithType: Queries.IsMatchOSCSequences
+- uid: VT.NET.Queries.IsMatchPMSequences(System.String)
+  name: IsMatchPMSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchPMSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchPMSequences(System.String)
+  nameWithType: Queries.IsMatchPMSequences(String)
+- uid: VT.NET.Queries.IsMatchPMSequences(System.String,RegexOptions)
+  name: IsMatchPMSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchPMSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchPMSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchPMSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchPMSequences*
+  name: IsMatchPMSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchPMSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchPMSequences
+  nameWithType: Queries.IsMatchPMSequences
+- uid: VT.NET.Queries.IsMatchVTSequences(System.String)
+  name: IsMatchVTSequences(String)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_System_String_
+  commentId: M:VT.NET.Queries.IsMatchVTSequences(System.String)
+  fullName: VT.NET.Queries.IsMatchVTSequences(System.String)
+  nameWithType: Queries.IsMatchVTSequences(String)
+- uid: VT.NET.Queries.IsMatchVTSequences(System.String,RegexOptions)
+  name: IsMatchVTSequences(String, RegexOptions)
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Queries.IsMatchVTSequences(System.String,RegexOptions)
+  fullName: VT.NET.Queries.IsMatchVTSequences(System.String, RegexOptions)
+  nameWithType: Queries.IsMatchVTSequences(String, RegexOptions)
+- uid: VT.NET.Queries.IsMatchVTSequences*
+  name: IsMatchVTSequences
+  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_
+  commentId: Overload:VT.NET.Queries.IsMatchVTSequences
+  isSpec: "True"
+  fullName: VT.NET.Queries.IsMatchVTSequences
+  nameWithType: Queries.IsMatchVTSequences
 - uid: VT.NET.RegexVTExpressions
   name: RegexVTExpressions
   href: api/VT.NET.RegexVTExpressions.html
@@ -349,6 +555,12 @@ references:
   commentId: M:VT.NET.Splits.SplitAPCSequences(System.String)
   fullName: VT.NET.Splits.SplitAPCSequences(System.String)
   nameWithType: Splits.SplitAPCSequences(String)
+- uid: VT.NET.Splits.SplitAPCSequences(System.String,RegexOptions)
+  name: SplitAPCSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitAPCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitAPCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitAPCSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitAPCSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitAPCSequences*
   name: SplitAPCSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitAPCSequences_
@@ -362,6 +574,12 @@ references:
   commentId: M:VT.NET.Splits.SplitC1Sequences(System.String)
   fullName: VT.NET.Splits.SplitC1Sequences(System.String)
   nameWithType: Splits.SplitC1Sequences(String)
+- uid: VT.NET.Splits.SplitC1Sequences(System.String,RegexOptions)
+  name: SplitC1Sequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitC1Sequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitC1Sequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitC1Sequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitC1Sequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitC1Sequences*
   name: SplitC1Sequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitC1Sequences_
@@ -375,6 +593,12 @@ references:
   commentId: M:VT.NET.Splits.SplitCSISequences(System.String)
   fullName: VT.NET.Splits.SplitCSISequences(System.String)
   nameWithType: Splits.SplitCSISequences(String)
+- uid: VT.NET.Splits.SplitCSISequences(System.String,RegexOptions)
+  name: SplitCSISequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitCSISequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitCSISequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitCSISequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitCSISequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitCSISequences*
   name: SplitCSISequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitCSISequences_
@@ -388,6 +612,12 @@ references:
   commentId: M:VT.NET.Splits.SplitDCSSequences(System.String)
   fullName: VT.NET.Splits.SplitDCSSequences(System.String)
   nameWithType: Splits.SplitDCSSequences(String)
+- uid: VT.NET.Splits.SplitDCSSequences(System.String,RegexOptions)
+  name: SplitDCSSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitDCSSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitDCSSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitDCSSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitDCSSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitDCSSequences*
   name: SplitDCSSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitDCSSequences_
@@ -401,6 +631,12 @@ references:
   commentId: M:VT.NET.Splits.SplitESCSequences(System.String)
   fullName: VT.NET.Splits.SplitESCSequences(System.String)
   nameWithType: Splits.SplitESCSequences(String)
+- uid: VT.NET.Splits.SplitESCSequences(System.String,RegexOptions)
+  name: SplitESCSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitESCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitESCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitESCSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitESCSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitESCSequences*
   name: SplitESCSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitESCSequences_
@@ -414,6 +650,12 @@ references:
   commentId: M:VT.NET.Splits.SplitOSCSequences(System.String)
   fullName: VT.NET.Splits.SplitOSCSequences(System.String)
   nameWithType: Splits.SplitOSCSequences(String)
+- uid: VT.NET.Splits.SplitOSCSequences(System.String,RegexOptions)
+  name: SplitOSCSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitOSCSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitOSCSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitOSCSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitOSCSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitOSCSequences*
   name: SplitOSCSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitOSCSequences_
@@ -427,6 +669,12 @@ references:
   commentId: M:VT.NET.Splits.SplitPMSequences(System.String)
   fullName: VT.NET.Splits.SplitPMSequences(System.String)
   nameWithType: Splits.SplitPMSequences(String)
+- uid: VT.NET.Splits.SplitPMSequences(System.String,RegexOptions)
+  name: SplitPMSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitPMSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitPMSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitPMSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitPMSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitPMSequences*
   name: SplitPMSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitPMSequences_
@@ -440,6 +688,12 @@ references:
   commentId: M:VT.NET.Splits.SplitVTSequences(System.String)
   fullName: VT.NET.Splits.SplitVTSequences(System.String)
   nameWithType: Splits.SplitVTSequences(String)
+- uid: VT.NET.Splits.SplitVTSequences(System.String,RegexOptions)
+  name: SplitVTSequences(String, RegexOptions)
+  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitVTSequences_System_String_RegexOptions_
+  commentId: M:VT.NET.Splits.SplitVTSequences(System.String,RegexOptions)
+  fullName: VT.NET.Splits.SplitVTSequences(System.String, RegexOptions)
+  nameWithType: Splits.SplitVTSequences(String, RegexOptions)
 - uid: VT.NET.Splits.SplitVTSequences*
   name: SplitVTSequences
   href: api/VT.NET.Splits.html#VT_NET_Splits_SplitVTSequences_
