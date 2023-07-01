@@ -24,6 +24,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -157,6 +158,30 @@ namespace VT.NET.Tools
         public static string[] SplitVTSequences(string Text, VtSequenceType type = VtSequenceType.All, RegexOptions options = RegexOptions.None) =>
             // Here, we don't support multiple types.
             Regex.Split(Text, GetSequenceFilterRegexFromType(type), options);
+
+        /// <summary>
+        /// Determines the VT sequence type from the given text
+        /// </summary>
+        /// <param name="Text">Text that contains escape sequences</param>
+        /// <returns>The type that contains all the VT escape sequence types found in the <paramref name="Text"/></returns>
+        public static VtSequenceType DetermineTypeFromText(string Text)
+        {
+            if (string.IsNullOrEmpty(Text))
+                return VtSequenceType.None;
+
+            // Use IsMatchVTSequencesSpecific so that we can determine the successful matches against all the VT sequences.
+            var matches = IsMatchVTSequencesSpecific(Text);
+            var successMatches = matches.Keys.Where((seqType) => matches[seqType] == true).ToArray();
+            int finalTypesInt = 0;
+            VtSequenceType finalTypes = VtSequenceType.None;
+
+            // Add the values of the types to determine the correct flag combination
+            foreach (VtSequenceType successMatch in successMatches)
+                finalTypesInt += (int)successMatch;
+            if (!Enum.TryParse(finalTypesInt.ToString(), out finalTypes))
+                return VtSequenceType.None;
+            return finalTypes;
+        }
 
         /// <summary>
         /// Gets the sequence filter regular expression from the provided VT sequence <paramref name="type"/> (<see cref="VtSequenceType"/>)

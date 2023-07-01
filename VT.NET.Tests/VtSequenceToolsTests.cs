@@ -777,5 +777,23 @@ namespace VT.NET.Tests
             matchCollections2[VtSequenceType.PM].ShouldBeTrue();
             matchCollections3[VtSequenceType.PM].ShouldBeTrue();
         }
+
+        /// <summary>
+        /// Tests determining the VT sequence type from the given text
+        /// </summary>
+        [Test]
+        public void TestDetermineTypeFromText()
+        {
+            char BellChar = Convert.ToChar(0x7);
+            char EscapeChar = Convert.ToChar(0x1b);
+            char StringTerminator = Convert.ToChar(0x9c);
+            string vtSequence1 = $"{EscapeChar}[38;5;43m";
+            string vtSequence2 = $"{EscapeChar}_1{StringTerminator}";
+            string vtSequence3 = $"{EscapeChar}]0;Hi!{BellChar}";
+            VtSequenceTools.DetermineTypeFromText($"Hello!{vtSequence1}").ShouldBe(VtSequenceType.CSI);
+            VtSequenceTools.DetermineTypeFromText($"Hel{vtSequence2}lo!").ShouldBe(VtSequenceType.APC);
+            VtSequenceTools.DetermineTypeFromText($"{vtSequence3}Hello!").ShouldBe(VtSequenceType.OSC);
+            VtSequenceTools.DetermineTypeFromText($"Hello!").ShouldBe(VtSequenceType.None);
+        }
     }
 }
