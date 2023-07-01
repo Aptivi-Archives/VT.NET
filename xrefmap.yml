@@ -1,703 +1,263 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: VT.NET
-  name: VT.NET
-  href: api/VT.NET.html
-  commentId: N:VT.NET
-  fullName: VT.NET
-  nameWithType: VT.NET
-- uid: VT.NET.Filters
-  name: Filters
-  href: api/VT.NET.Filters.html
-  commentId: T:VT.NET.Filters
-  fullName: VT.NET.Filters
-  nameWithType: Filters
-- uid: VT.NET.Filters.FilterAPCSequences(System.String,System.String,RegexOptions)
-  name: FilterAPCSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterAPCSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterAPCSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterAPCSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterAPCSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterAPCSequences*
-  name: FilterAPCSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterAPCSequences_
-  commentId: Overload:VT.NET.Filters.FilterAPCSequences
+- uid: VT.NET.Tools
+  name: VT.NET.Tools
+  href: api/VT.NET.Tools.html
+  commentId: N:VT.NET.Tools
+  fullName: VT.NET.Tools
+  nameWithType: VT.NET.Tools
+- uid: VT.NET.Tools.VtSequenceRegexes
+  name: VtSequenceRegexes
+  href: api/VT.NET.Tools.VtSequenceRegexes.html
+  commentId: T:VT.NET.Tools.VtSequenceRegexes
+  fullName: VT.NET.Tools.VtSequenceRegexes
+  nameWithType: VtSequenceRegexes
+- uid: VT.NET.Tools.VtSequenceRegexes.AllVTSequences
+  name: AllVTSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_AllVTSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.AllVTSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.AllVTSequences
+  nameWithType: VtSequenceRegexes.AllVTSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.AllVTSequences*
+  name: AllVTSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_AllVTSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.AllVTSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterAPCSequences
-  nameWithType: Filters.FilterAPCSequences
-- uid: VT.NET.Filters.FilterC1Sequences(System.String,System.String,RegexOptions)
-  name: FilterC1Sequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterC1Sequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterC1Sequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterC1Sequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterC1Sequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterC1Sequences*
-  name: FilterC1Sequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterC1Sequences_
-  commentId: Overload:VT.NET.Filters.FilterC1Sequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.AllVTSequences
+  nameWithType: VtSequenceRegexes.AllVTSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.APCSequences
+  name: APCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_APCSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.APCSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.APCSequences
+  nameWithType: VtSequenceRegexes.APCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.APCSequences*
+  name: APCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_APCSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.APCSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterC1Sequences
-  nameWithType: Filters.FilterC1Sequences
-- uid: VT.NET.Filters.FilterCSISequences(System.String,System.String,RegexOptions)
-  name: FilterCSISequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterCSISequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterCSISequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterCSISequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterCSISequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterCSISequences*
-  name: FilterCSISequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterCSISequences_
-  commentId: Overload:VT.NET.Filters.FilterCSISequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.APCSequences
+  nameWithType: VtSequenceRegexes.APCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.C1Sequences
+  name: C1Sequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_C1Sequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.C1Sequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.C1Sequences
+  nameWithType: VtSequenceRegexes.C1Sequences
+- uid: VT.NET.Tools.VtSequenceRegexes.C1Sequences*
+  name: C1Sequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_C1Sequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.C1Sequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterCSISequences
-  nameWithType: Filters.FilterCSISequences
-- uid: VT.NET.Filters.FilterDCSSequences(System.String,System.String,RegexOptions)
-  name: FilterDCSSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterDCSSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterDCSSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterDCSSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterDCSSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterDCSSequences*
-  name: FilterDCSSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterDCSSequences_
-  commentId: Overload:VT.NET.Filters.FilterDCSSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.C1Sequences
+  nameWithType: VtSequenceRegexes.C1Sequences
+- uid: VT.NET.Tools.VtSequenceRegexes.CSISequences
+  name: CSISequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_CSISequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.CSISequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.CSISequences
+  nameWithType: VtSequenceRegexes.CSISequences
+- uid: VT.NET.Tools.VtSequenceRegexes.CSISequences*
+  name: CSISequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_CSISequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.CSISequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterDCSSequences
-  nameWithType: Filters.FilterDCSSequences
-- uid: VT.NET.Filters.FilterESCSequences(System.String,System.String,RegexOptions)
-  name: FilterESCSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterESCSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterESCSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterESCSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterESCSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterESCSequences*
-  name: FilterESCSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterESCSequences_
-  commentId: Overload:VT.NET.Filters.FilterESCSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.CSISequences
+  nameWithType: VtSequenceRegexes.CSISequences
+- uid: VT.NET.Tools.VtSequenceRegexes.DCSSequences
+  name: DCSSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_DCSSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.DCSSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.DCSSequences
+  nameWithType: VtSequenceRegexes.DCSSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.DCSSequences*
+  name: DCSSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_DCSSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.DCSSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterESCSequences
-  nameWithType: Filters.FilterESCSequences
-- uid: VT.NET.Filters.FilterOSCSequences(System.String,System.String,RegexOptions)
-  name: FilterOSCSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterOSCSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterOSCSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterOSCSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterOSCSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterOSCSequences*
-  name: FilterOSCSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterOSCSequences_
-  commentId: Overload:VT.NET.Filters.FilterOSCSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.DCSSequences
+  nameWithType: VtSequenceRegexes.DCSSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.ESCSequences
+  name: ESCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_ESCSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.ESCSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.ESCSequences
+  nameWithType: VtSequenceRegexes.ESCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.ESCSequences*
+  name: ESCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_ESCSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.ESCSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterOSCSequences
-  nameWithType: Filters.FilterOSCSequences
-- uid: VT.NET.Filters.FilterPMSequences(System.String,System.String,RegexOptions)
-  name: FilterPMSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterPMSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterPMSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterPMSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterPMSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterPMSequences*
-  name: FilterPMSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterPMSequences_
-  commentId: Overload:VT.NET.Filters.FilterPMSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.ESCSequences
+  nameWithType: VtSequenceRegexes.ESCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.OSCSequences
+  name: OSCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_OSCSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.OSCSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.OSCSequences
+  nameWithType: VtSequenceRegexes.OSCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.OSCSequences*
+  name: OSCSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_OSCSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.OSCSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterPMSequences
-  nameWithType: Filters.FilterPMSequences
-- uid: VT.NET.Filters.FilterVTSequences(System.String,System.String,RegexOptions)
-  name: FilterVTSequences(String, String, RegexOptions)
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterVTSequences_System_String_System_String_RegexOptions_
-  commentId: M:VT.NET.Filters.FilterVTSequences(System.String,System.String,RegexOptions)
-  fullName: VT.NET.Filters.FilterVTSequences(System.String, System.String, RegexOptions)
-  nameWithType: Filters.FilterVTSequences(String, String, RegexOptions)
-- uid: VT.NET.Filters.FilterVTSequences*
+  fullName: VT.NET.Tools.VtSequenceRegexes.OSCSequences
+  nameWithType: VtSequenceRegexes.OSCSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.PMSequences
+  name: PMSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_PMSequences
+  commentId: P:VT.NET.Tools.VtSequenceRegexes.PMSequences
+  fullName: VT.NET.Tools.VtSequenceRegexes.PMSequences
+  nameWithType: VtSequenceRegexes.PMSequences
+- uid: VT.NET.Tools.VtSequenceRegexes.PMSequences*
+  name: PMSequences
+  href: api/VT.NET.Tools.VtSequenceRegexes.html#VT_NET_Tools_VtSequenceRegexes_PMSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceRegexes.PMSequences
+  isSpec: "True"
+  fullName: VT.NET.Tools.VtSequenceRegexes.PMSequences
+  nameWithType: VtSequenceRegexes.PMSequences
+- uid: VT.NET.Tools.VtSequenceTools
+  name: VtSequenceTools
+  href: api/VT.NET.Tools.VtSequenceTools.html
+  commentId: T:VT.NET.Tools.VtSequenceTools
+  fullName: VT.NET.Tools.VtSequenceTools
+  nameWithType: VtSequenceTools
+- uid: VT.NET.Tools.VtSequenceTools.FilterVTSequences(System.String,System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  name: FilterVTSequences(String, String, VtSequenceType, RegexOptions)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_FilterVTSequences_System_String_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
+  commentId: M:VT.NET.Tools.VtSequenceTools.FilterVTSequences(System.String,System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  fullName: VT.NET.Tools.VtSequenceTools.FilterVTSequences(System.String, System.String, VT.NET.Tools.VtSequenceType, RegexOptions)
+  nameWithType: VtSequenceTools.FilterVTSequences(String, String, VtSequenceType, RegexOptions)
+- uid: VT.NET.Tools.VtSequenceTools.FilterVTSequences*
   name: FilterVTSequences
-  href: api/VT.NET.Filters.html#VT_NET_Filters_FilterVTSequences_
-  commentId: Overload:VT.NET.Filters.FilterVTSequences
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_FilterVTSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.FilterVTSequences
   isSpec: "True"
-  fullName: VT.NET.Filters.FilterVTSequences
-  nameWithType: Filters.FilterVTSequences
-- uid: VT.NET.Matches
-  name: Matches
-  href: api/VT.NET.Matches.html
-  commentId: T:VT.NET.Matches
-  fullName: VT.NET.Matches
-  nameWithType: Matches
-- uid: VT.NET.Matches.MatchAPCSequences(System.String)
-  name: MatchAPCSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchAPCSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchAPCSequences(System.String)
-  fullName: VT.NET.Matches.MatchAPCSequences(System.String)
-  nameWithType: Matches.MatchAPCSequences(String)
-- uid: VT.NET.Matches.MatchAPCSequences(System.String,RegexOptions)
-  name: MatchAPCSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchAPCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchAPCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchAPCSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchAPCSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchAPCSequences*
-  name: MatchAPCSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchAPCSequences_
-  commentId: Overload:VT.NET.Matches.MatchAPCSequences
+  fullName: VT.NET.Tools.VtSequenceTools.FilterVTSequences
+  nameWithType: VtSequenceTools.FilterVTSequences
+- uid: VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType(VT.NET.Tools.VtSequenceType)
+  name: GetSequenceFilterRegexFromType(VtSequenceType)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_GetSequenceFilterRegexFromType_VT_NET_Tools_VtSequenceType_
+  commentId: M:VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType(VT.NET.Tools.VtSequenceType)
+  fullName: VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType(VT.NET.Tools.VtSequenceType)
+  nameWithType: VtSequenceTools.GetSequenceFilterRegexFromType(VtSequenceType)
+- uid: VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType*
+  name: GetSequenceFilterRegexFromType
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_GetSequenceFilterRegexFromType_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType
   isSpec: "True"
-  fullName: VT.NET.Matches.MatchAPCSequences
-  nameWithType: Matches.MatchAPCSequences
-- uid: VT.NET.Matches.MatchC1Sequences(System.String)
-  name: MatchC1Sequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchC1Sequences_System_String_
-  commentId: M:VT.NET.Matches.MatchC1Sequences(System.String)
-  fullName: VT.NET.Matches.MatchC1Sequences(System.String)
-  nameWithType: Matches.MatchC1Sequences(String)
-- uid: VT.NET.Matches.MatchC1Sequences(System.String,RegexOptions)
-  name: MatchC1Sequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchC1Sequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchC1Sequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchC1Sequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchC1Sequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchC1Sequences*
-  name: MatchC1Sequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchC1Sequences_
-  commentId: Overload:VT.NET.Matches.MatchC1Sequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchC1Sequences
-  nameWithType: Matches.MatchC1Sequences
-- uid: VT.NET.Matches.MatchCSISequences(System.String)
-  name: MatchCSISequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchCSISequences_System_String_
-  commentId: M:VT.NET.Matches.MatchCSISequences(System.String)
-  fullName: VT.NET.Matches.MatchCSISequences(System.String)
-  nameWithType: Matches.MatchCSISequences(String)
-- uid: VT.NET.Matches.MatchCSISequences(System.String,RegexOptions)
-  name: MatchCSISequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchCSISequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchCSISequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchCSISequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchCSISequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchCSISequences*
-  name: MatchCSISequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchCSISequences_
-  commentId: Overload:VT.NET.Matches.MatchCSISequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchCSISequences
-  nameWithType: Matches.MatchCSISequences
-- uid: VT.NET.Matches.MatchDCSSequences(System.String)
-  name: MatchDCSSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchDCSSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchDCSSequences(System.String)
-  fullName: VT.NET.Matches.MatchDCSSequences(System.String)
-  nameWithType: Matches.MatchDCSSequences(String)
-- uid: VT.NET.Matches.MatchDCSSequences(System.String,RegexOptions)
-  name: MatchDCSSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchDCSSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchDCSSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchDCSSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchDCSSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchDCSSequences*
-  name: MatchDCSSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchDCSSequences_
-  commentId: Overload:VT.NET.Matches.MatchDCSSequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchDCSSequences
-  nameWithType: Matches.MatchDCSSequences
-- uid: VT.NET.Matches.MatchESCSequences(System.String)
-  name: MatchESCSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchESCSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchESCSequences(System.String)
-  fullName: VT.NET.Matches.MatchESCSequences(System.String)
-  nameWithType: Matches.MatchESCSequences(String)
-- uid: VT.NET.Matches.MatchESCSequences(System.String,RegexOptions)
-  name: MatchESCSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchESCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchESCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchESCSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchESCSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchESCSequences*
-  name: MatchESCSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchESCSequences_
-  commentId: Overload:VT.NET.Matches.MatchESCSequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchESCSequences
-  nameWithType: Matches.MatchESCSequences
-- uid: VT.NET.Matches.MatchOSCSequences(System.String)
-  name: MatchOSCSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchOSCSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchOSCSequences(System.String)
-  fullName: VT.NET.Matches.MatchOSCSequences(System.String)
-  nameWithType: Matches.MatchOSCSequences(String)
-- uid: VT.NET.Matches.MatchOSCSequences(System.String,RegexOptions)
-  name: MatchOSCSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchOSCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchOSCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchOSCSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchOSCSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchOSCSequences*
-  name: MatchOSCSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchOSCSequences_
-  commentId: Overload:VT.NET.Matches.MatchOSCSequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchOSCSequences
-  nameWithType: Matches.MatchOSCSequences
-- uid: VT.NET.Matches.MatchPMSequences(System.String)
-  name: MatchPMSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchPMSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchPMSequences(System.String)
-  fullName: VT.NET.Matches.MatchPMSequences(System.String)
-  nameWithType: Matches.MatchPMSequences(String)
-- uid: VT.NET.Matches.MatchPMSequences(System.String,RegexOptions)
-  name: MatchPMSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchPMSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchPMSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchPMSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchPMSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchPMSequences*
-  name: MatchPMSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchPMSequences_
-  commentId: Overload:VT.NET.Matches.MatchPMSequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchPMSequences
-  nameWithType: Matches.MatchPMSequences
-- uid: VT.NET.Matches.MatchVTSequences(System.String)
-  name: MatchVTSequences(String)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchVTSequences_System_String_
-  commentId: M:VT.NET.Matches.MatchVTSequences(System.String)
-  fullName: VT.NET.Matches.MatchVTSequences(System.String)
-  nameWithType: Matches.MatchVTSequences(String)
-- uid: VT.NET.Matches.MatchVTSequences(System.String,RegexOptions)
-  name: MatchVTSequences(String, RegexOptions)
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchVTSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Matches.MatchVTSequences(System.String,RegexOptions)
-  fullName: VT.NET.Matches.MatchVTSequences(System.String, RegexOptions)
-  nameWithType: Matches.MatchVTSequences(String, RegexOptions)
-- uid: VT.NET.Matches.MatchVTSequences*
-  name: MatchVTSequences
-  href: api/VT.NET.Matches.html#VT_NET_Matches_MatchVTSequences_
-  commentId: Overload:VT.NET.Matches.MatchVTSequences
-  isSpec: "True"
-  fullName: VT.NET.Matches.MatchVTSequences
-  nameWithType: Matches.MatchVTSequences
-- uid: VT.NET.Queries
-  name: Queries
-  href: api/VT.NET.Queries.html
-  commentId: T:VT.NET.Queries
-  fullName: VT.NET.Queries
-  nameWithType: Queries
-- uid: VT.NET.Queries.IsMatchAPCSequences(System.String)
-  name: IsMatchAPCSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchAPCSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchAPCSequences(System.String)
-  nameWithType: Queries.IsMatchAPCSequences(String)
-- uid: VT.NET.Queries.IsMatchAPCSequences(System.String,RegexOptions)
-  name: IsMatchAPCSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchAPCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchAPCSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchAPCSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchAPCSequences*
-  name: IsMatchAPCSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchAPCSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchAPCSequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchAPCSequences
-  nameWithType: Queries.IsMatchAPCSequences
-- uid: VT.NET.Queries.IsMatchC1Sequences(System.String)
-  name: IsMatchC1Sequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchC1Sequences(System.String)
-  fullName: VT.NET.Queries.IsMatchC1Sequences(System.String)
-  nameWithType: Queries.IsMatchC1Sequences(String)
-- uid: VT.NET.Queries.IsMatchC1Sequences(System.String,RegexOptions)
-  name: IsMatchC1Sequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchC1Sequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchC1Sequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchC1Sequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchC1Sequences*
-  name: IsMatchC1Sequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchC1Sequences_
-  commentId: Overload:VT.NET.Queries.IsMatchC1Sequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchC1Sequences
-  nameWithType: Queries.IsMatchC1Sequences
-- uid: VT.NET.Queries.IsMatchCSISequences(System.String)
-  name: IsMatchCSISequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchCSISequences(System.String)
-  fullName: VT.NET.Queries.IsMatchCSISequences(System.String)
-  nameWithType: Queries.IsMatchCSISequences(String)
-- uid: VT.NET.Queries.IsMatchCSISequences(System.String,RegexOptions)
-  name: IsMatchCSISequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchCSISequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchCSISequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchCSISequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchCSISequences*
-  name: IsMatchCSISequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchCSISequences_
-  commentId: Overload:VT.NET.Queries.IsMatchCSISequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchCSISequences
-  nameWithType: Queries.IsMatchCSISequences
-- uid: VT.NET.Queries.IsMatchDCSSequences(System.String)
-  name: IsMatchDCSSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchDCSSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchDCSSequences(System.String)
-  nameWithType: Queries.IsMatchDCSSequences(String)
-- uid: VT.NET.Queries.IsMatchDCSSequences(System.String,RegexOptions)
-  name: IsMatchDCSSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchDCSSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchDCSSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchDCSSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchDCSSequences*
-  name: IsMatchDCSSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchDCSSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchDCSSequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchDCSSequences
-  nameWithType: Queries.IsMatchDCSSequences
-- uid: VT.NET.Queries.IsMatchESCSequences(System.String)
-  name: IsMatchESCSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchESCSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchESCSequences(System.String)
-  nameWithType: Queries.IsMatchESCSequences(String)
-- uid: VT.NET.Queries.IsMatchESCSequences(System.String,RegexOptions)
-  name: IsMatchESCSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchESCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchESCSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchESCSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchESCSequences*
-  name: IsMatchESCSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchESCSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchESCSequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchESCSequences
-  nameWithType: Queries.IsMatchESCSequences
-- uid: VT.NET.Queries.IsMatchOSCSequences(System.String)
-  name: IsMatchOSCSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchOSCSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchOSCSequences(System.String)
-  nameWithType: Queries.IsMatchOSCSequences(String)
-- uid: VT.NET.Queries.IsMatchOSCSequences(System.String,RegexOptions)
-  name: IsMatchOSCSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchOSCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchOSCSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchOSCSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchOSCSequences*
-  name: IsMatchOSCSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchOSCSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchOSCSequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchOSCSequences
-  nameWithType: Queries.IsMatchOSCSequences
-- uid: VT.NET.Queries.IsMatchPMSequences(System.String)
-  name: IsMatchPMSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchPMSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchPMSequences(System.String)
-  nameWithType: Queries.IsMatchPMSequences(String)
-- uid: VT.NET.Queries.IsMatchPMSequences(System.String,RegexOptions)
-  name: IsMatchPMSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchPMSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchPMSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchPMSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchPMSequences*
-  name: IsMatchPMSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchPMSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchPMSequences
-  isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchPMSequences
-  nameWithType: Queries.IsMatchPMSequences
-- uid: VT.NET.Queries.IsMatchVTSequences(System.String)
-  name: IsMatchVTSequences(String)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_System_String_
-  commentId: M:VT.NET.Queries.IsMatchVTSequences(System.String)
-  fullName: VT.NET.Queries.IsMatchVTSequences(System.String)
-  nameWithType: Queries.IsMatchVTSequences(String)
-- uid: VT.NET.Queries.IsMatchVTSequences(System.String,RegexOptions)
-  name: IsMatchVTSequences(String, RegexOptions)
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Queries.IsMatchVTSequences(System.String,RegexOptions)
-  fullName: VT.NET.Queries.IsMatchVTSequences(System.String, RegexOptions)
-  nameWithType: Queries.IsMatchVTSequences(String, RegexOptions)
-- uid: VT.NET.Queries.IsMatchVTSequences*
+  fullName: VT.NET.Tools.VtSequenceTools.GetSequenceFilterRegexFromType
+  nameWithType: VtSequenceTools.GetSequenceFilterRegexFromType
+- uid: VT.NET.Tools.VtSequenceTools.IsMatchVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  name: IsMatchVTSequences(String, VtSequenceType, RegexOptions)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_IsMatchVTSequences_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
+  commentId: M:VT.NET.Tools.VtSequenceTools.IsMatchVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  fullName: VT.NET.Tools.VtSequenceTools.IsMatchVTSequences(System.String, VT.NET.Tools.VtSequenceType, RegexOptions)
+  nameWithType: VtSequenceTools.IsMatchVTSequences(String, VtSequenceType, RegexOptions)
+- uid: VT.NET.Tools.VtSequenceTools.IsMatchVTSequences*
   name: IsMatchVTSequences
-  href: api/VT.NET.Queries.html#VT_NET_Queries_IsMatchVTSequences_
-  commentId: Overload:VT.NET.Queries.IsMatchVTSequences
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_IsMatchVTSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.IsMatchVTSequences
   isSpec: "True"
-  fullName: VT.NET.Queries.IsMatchVTSequences
-  nameWithType: Queries.IsMatchVTSequences
-- uid: VT.NET.RegexVTExpressions
-  name: RegexVTExpressions
-  href: api/VT.NET.RegexVTExpressions.html
-  commentId: T:VT.NET.RegexVTExpressions
-  fullName: VT.NET.RegexVTExpressions
-  nameWithType: RegexVTExpressions
-- uid: VT.NET.RegexVTExpressions.AllVTSequences
-  name: AllVTSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_AllVTSequences
-  commentId: P:VT.NET.RegexVTExpressions.AllVTSequences
-  fullName: VT.NET.RegexVTExpressions.AllVTSequences
-  nameWithType: RegexVTExpressions.AllVTSequences
-- uid: VT.NET.RegexVTExpressions.AllVTSequences*
-  name: AllVTSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_AllVTSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.AllVTSequences
+  fullName: VT.NET.Tools.VtSequenceTools.IsMatchVTSequences
+  nameWithType: VtSequenceTools.IsMatchVTSequences
+- uid: VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  name: IsMatchVTSequencesSpecific(String, VtSequenceType, RegexOptions)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_IsMatchVTSequencesSpecific_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
+  commentId: M:VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  fullName: VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific(System.String, VT.NET.Tools.VtSequenceType, RegexOptions)
+  nameWithType: VtSequenceTools.IsMatchVTSequencesSpecific(String, VtSequenceType, RegexOptions)
+- uid: VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific*
+  name: IsMatchVTSequencesSpecific
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_IsMatchVTSequencesSpecific_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific
   isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.AllVTSequences
-  nameWithType: RegexVTExpressions.AllVTSequences
-- uid: VT.NET.RegexVTExpressions.APCSequences
-  name: APCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_APCSequences
-  commentId: P:VT.NET.RegexVTExpressions.APCSequences
-  fullName: VT.NET.RegexVTExpressions.APCSequences
-  nameWithType: RegexVTExpressions.APCSequences
-- uid: VT.NET.RegexVTExpressions.APCSequences*
-  name: APCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_APCSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.APCSequences
+  fullName: VT.NET.Tools.VtSequenceTools.IsMatchVTSequencesSpecific
+  nameWithType: VtSequenceTools.IsMatchVTSequencesSpecific
+- uid: VT.NET.Tools.VtSequenceTools.MatchVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  name: MatchVTSequences(String, VtSequenceType, RegexOptions)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_MatchVTSequences_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
+  commentId: M:VT.NET.Tools.VtSequenceTools.MatchVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  fullName: VT.NET.Tools.VtSequenceTools.MatchVTSequences(System.String, VT.NET.Tools.VtSequenceType, RegexOptions)
+  nameWithType: VtSequenceTools.MatchVTSequences(String, VtSequenceType, RegexOptions)
+- uid: VT.NET.Tools.VtSequenceTools.MatchVTSequences*
+  name: MatchVTSequences
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_MatchVTSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.MatchVTSequences
   isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.APCSequences
-  nameWithType: RegexVTExpressions.APCSequences
-- uid: VT.NET.RegexVTExpressions.C1Sequences
-  name: C1Sequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_C1Sequences
-  commentId: P:VT.NET.RegexVTExpressions.C1Sequences
-  fullName: VT.NET.RegexVTExpressions.C1Sequences
-  nameWithType: RegexVTExpressions.C1Sequences
-- uid: VT.NET.RegexVTExpressions.C1Sequences*
-  name: C1Sequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_C1Sequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.C1Sequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.C1Sequences
-  nameWithType: RegexVTExpressions.C1Sequences
-- uid: VT.NET.RegexVTExpressions.CSISequences
-  name: CSISequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_CSISequences
-  commentId: P:VT.NET.RegexVTExpressions.CSISequences
-  fullName: VT.NET.RegexVTExpressions.CSISequences
-  nameWithType: RegexVTExpressions.CSISequences
-- uid: VT.NET.RegexVTExpressions.CSISequences*
-  name: CSISequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_CSISequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.CSISequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.CSISequences
-  nameWithType: RegexVTExpressions.CSISequences
-- uid: VT.NET.RegexVTExpressions.DCSSequences
-  name: DCSSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_DCSSequences
-  commentId: P:VT.NET.RegexVTExpressions.DCSSequences
-  fullName: VT.NET.RegexVTExpressions.DCSSequences
-  nameWithType: RegexVTExpressions.DCSSequences
-- uid: VT.NET.RegexVTExpressions.DCSSequences*
-  name: DCSSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_DCSSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.DCSSequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.DCSSequences
-  nameWithType: RegexVTExpressions.DCSSequences
-- uid: VT.NET.RegexVTExpressions.ESCSequences
-  name: ESCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_ESCSequences
-  commentId: P:VT.NET.RegexVTExpressions.ESCSequences
-  fullName: VT.NET.RegexVTExpressions.ESCSequences
-  nameWithType: RegexVTExpressions.ESCSequences
-- uid: VT.NET.RegexVTExpressions.ESCSequences*
-  name: ESCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_ESCSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.ESCSequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.ESCSequences
-  nameWithType: RegexVTExpressions.ESCSequences
-- uid: VT.NET.RegexVTExpressions.OSCSequences
-  name: OSCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_OSCSequences
-  commentId: P:VT.NET.RegexVTExpressions.OSCSequences
-  fullName: VT.NET.RegexVTExpressions.OSCSequences
-  nameWithType: RegexVTExpressions.OSCSequences
-- uid: VT.NET.RegexVTExpressions.OSCSequences*
-  name: OSCSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_OSCSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.OSCSequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.OSCSequences
-  nameWithType: RegexVTExpressions.OSCSequences
-- uid: VT.NET.RegexVTExpressions.PMSequences
-  name: PMSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_PMSequences
-  commentId: P:VT.NET.RegexVTExpressions.PMSequences
-  fullName: VT.NET.RegexVTExpressions.PMSequences
-  nameWithType: RegexVTExpressions.PMSequences
-- uid: VT.NET.RegexVTExpressions.PMSequences*
-  name: PMSequences
-  href: api/VT.NET.RegexVTExpressions.html#VT_NET_RegexVTExpressions_PMSequences_
-  commentId: Overload:VT.NET.RegexVTExpressions.PMSequences
-  isSpec: "True"
-  fullName: VT.NET.RegexVTExpressions.PMSequences
-  nameWithType: RegexVTExpressions.PMSequences
-- uid: VT.NET.Splits
-  name: Splits
-  href: api/VT.NET.Splits.html
-  commentId: T:VT.NET.Splits
-  fullName: VT.NET.Splits
-  nameWithType: Splits
-- uid: VT.NET.Splits.SplitAPCSequences(System.String)
-  name: SplitAPCSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitAPCSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitAPCSequences(System.String)
-  fullName: VT.NET.Splits.SplitAPCSequences(System.String)
-  nameWithType: Splits.SplitAPCSequences(String)
-- uid: VT.NET.Splits.SplitAPCSequences(System.String,RegexOptions)
-  name: SplitAPCSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitAPCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitAPCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitAPCSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitAPCSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitAPCSequences*
-  name: SplitAPCSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitAPCSequences_
-  commentId: Overload:VT.NET.Splits.SplitAPCSequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitAPCSequences
-  nameWithType: Splits.SplitAPCSequences
-- uid: VT.NET.Splits.SplitC1Sequences(System.String)
-  name: SplitC1Sequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitC1Sequences_System_String_
-  commentId: M:VT.NET.Splits.SplitC1Sequences(System.String)
-  fullName: VT.NET.Splits.SplitC1Sequences(System.String)
-  nameWithType: Splits.SplitC1Sequences(String)
-- uid: VT.NET.Splits.SplitC1Sequences(System.String,RegexOptions)
-  name: SplitC1Sequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitC1Sequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitC1Sequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitC1Sequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitC1Sequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitC1Sequences*
-  name: SplitC1Sequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitC1Sequences_
-  commentId: Overload:VT.NET.Splits.SplitC1Sequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitC1Sequences
-  nameWithType: Splits.SplitC1Sequences
-- uid: VT.NET.Splits.SplitCSISequences(System.String)
-  name: SplitCSISequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitCSISequences_System_String_
-  commentId: M:VT.NET.Splits.SplitCSISequences(System.String)
-  fullName: VT.NET.Splits.SplitCSISequences(System.String)
-  nameWithType: Splits.SplitCSISequences(String)
-- uid: VT.NET.Splits.SplitCSISequences(System.String,RegexOptions)
-  name: SplitCSISequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitCSISequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitCSISequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitCSISequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitCSISequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitCSISequences*
-  name: SplitCSISequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitCSISequences_
-  commentId: Overload:VT.NET.Splits.SplitCSISequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitCSISequences
-  nameWithType: Splits.SplitCSISequences
-- uid: VT.NET.Splits.SplitDCSSequences(System.String)
-  name: SplitDCSSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitDCSSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitDCSSequences(System.String)
-  fullName: VT.NET.Splits.SplitDCSSequences(System.String)
-  nameWithType: Splits.SplitDCSSequences(String)
-- uid: VT.NET.Splits.SplitDCSSequences(System.String,RegexOptions)
-  name: SplitDCSSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitDCSSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitDCSSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitDCSSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitDCSSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitDCSSequences*
-  name: SplitDCSSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitDCSSequences_
-  commentId: Overload:VT.NET.Splits.SplitDCSSequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitDCSSequences
-  nameWithType: Splits.SplitDCSSequences
-- uid: VT.NET.Splits.SplitESCSequences(System.String)
-  name: SplitESCSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitESCSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitESCSequences(System.String)
-  fullName: VT.NET.Splits.SplitESCSequences(System.String)
-  nameWithType: Splits.SplitESCSequences(String)
-- uid: VT.NET.Splits.SplitESCSequences(System.String,RegexOptions)
-  name: SplitESCSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitESCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitESCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitESCSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitESCSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitESCSequences*
-  name: SplitESCSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitESCSequences_
-  commentId: Overload:VT.NET.Splits.SplitESCSequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitESCSequences
-  nameWithType: Splits.SplitESCSequences
-- uid: VT.NET.Splits.SplitOSCSequences(System.String)
-  name: SplitOSCSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitOSCSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitOSCSequences(System.String)
-  fullName: VT.NET.Splits.SplitOSCSequences(System.String)
-  nameWithType: Splits.SplitOSCSequences(String)
-- uid: VT.NET.Splits.SplitOSCSequences(System.String,RegexOptions)
-  name: SplitOSCSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitOSCSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitOSCSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitOSCSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitOSCSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitOSCSequences*
-  name: SplitOSCSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitOSCSequences_
-  commentId: Overload:VT.NET.Splits.SplitOSCSequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitOSCSequences
-  nameWithType: Splits.SplitOSCSequences
-- uid: VT.NET.Splits.SplitPMSequences(System.String)
-  name: SplitPMSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitPMSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitPMSequences(System.String)
-  fullName: VT.NET.Splits.SplitPMSequences(System.String)
-  nameWithType: Splits.SplitPMSequences(String)
-- uid: VT.NET.Splits.SplitPMSequences(System.String,RegexOptions)
-  name: SplitPMSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitPMSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitPMSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitPMSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitPMSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitPMSequences*
-  name: SplitPMSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitPMSequences_
-  commentId: Overload:VT.NET.Splits.SplitPMSequences
-  isSpec: "True"
-  fullName: VT.NET.Splits.SplitPMSequences
-  nameWithType: Splits.SplitPMSequences
-- uid: VT.NET.Splits.SplitVTSequences(System.String)
-  name: SplitVTSequences(String)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitVTSequences_System_String_
-  commentId: M:VT.NET.Splits.SplitVTSequences(System.String)
-  fullName: VT.NET.Splits.SplitVTSequences(System.String)
-  nameWithType: Splits.SplitVTSequences(String)
-- uid: VT.NET.Splits.SplitVTSequences(System.String,RegexOptions)
-  name: SplitVTSequences(String, RegexOptions)
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitVTSequences_System_String_RegexOptions_
-  commentId: M:VT.NET.Splits.SplitVTSequences(System.String,RegexOptions)
-  fullName: VT.NET.Splits.SplitVTSequences(System.String, RegexOptions)
-  nameWithType: Splits.SplitVTSequences(String, RegexOptions)
-- uid: VT.NET.Splits.SplitVTSequences*
+  fullName: VT.NET.Tools.VtSequenceTools.MatchVTSequences
+  nameWithType: VtSequenceTools.MatchVTSequences
+- uid: VT.NET.Tools.VtSequenceTools.SplitVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  name: SplitVTSequences(String, VtSequenceType, RegexOptions)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_SplitVTSequences_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
+  commentId: M:VT.NET.Tools.VtSequenceTools.SplitVTSequences(System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
+  fullName: VT.NET.Tools.VtSequenceTools.SplitVTSequences(System.String, VT.NET.Tools.VtSequenceType, RegexOptions)
+  nameWithType: VtSequenceTools.SplitVTSequences(String, VtSequenceType, RegexOptions)
+- uid: VT.NET.Tools.VtSequenceTools.SplitVTSequences*
   name: SplitVTSequences
-  href: api/VT.NET.Splits.html#VT_NET_Splits_SplitVTSequences_
-  commentId: Overload:VT.NET.Splits.SplitVTSequences
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_SplitVTSequences_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.SplitVTSequences
   isSpec: "True"
-  fullName: VT.NET.Splits.SplitVTSequences
-  nameWithType: Splits.SplitVTSequences
+  fullName: VT.NET.Tools.VtSequenceTools.SplitVTSequences
+  nameWithType: VtSequenceTools.SplitVTSequences
+- uid: VT.NET.Tools.VtSequenceType
+  name: VtSequenceType
+  href: api/VT.NET.Tools.VtSequenceType.html
+  commentId: T:VT.NET.Tools.VtSequenceType
+  fullName: VT.NET.Tools.VtSequenceType
+  nameWithType: VtSequenceType
+- uid: VT.NET.Tools.VtSequenceType.All
+  name: All
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_All
+  commentId: F:VT.NET.Tools.VtSequenceType.All
+  fullName: VT.NET.Tools.VtSequenceType.All
+  nameWithType: VtSequenceType.All
+- uid: VT.NET.Tools.VtSequenceType.APC
+  name: APC
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_APC
+  commentId: F:VT.NET.Tools.VtSequenceType.APC
+  fullName: VT.NET.Tools.VtSequenceType.APC
+  nameWithType: VtSequenceType.APC
+- uid: VT.NET.Tools.VtSequenceType.C1
+  name: C1
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_C1
+  commentId: F:VT.NET.Tools.VtSequenceType.C1
+  fullName: VT.NET.Tools.VtSequenceType.C1
+  nameWithType: VtSequenceType.C1
+- uid: VT.NET.Tools.VtSequenceType.CSI
+  name: CSI
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_CSI
+  commentId: F:VT.NET.Tools.VtSequenceType.CSI
+  fullName: VT.NET.Tools.VtSequenceType.CSI
+  nameWithType: VtSequenceType.CSI
+- uid: VT.NET.Tools.VtSequenceType.DCS
+  name: DCS
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_DCS
+  commentId: F:VT.NET.Tools.VtSequenceType.DCS
+  fullName: VT.NET.Tools.VtSequenceType.DCS
+  nameWithType: VtSequenceType.DCS
+- uid: VT.NET.Tools.VtSequenceType.ESC
+  name: ESC
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_ESC
+  commentId: F:VT.NET.Tools.VtSequenceType.ESC
+  fullName: VT.NET.Tools.VtSequenceType.ESC
+  nameWithType: VtSequenceType.ESC
+- uid: VT.NET.Tools.VtSequenceType.None
+  name: None
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_None
+  commentId: F:VT.NET.Tools.VtSequenceType.None
+  fullName: VT.NET.Tools.VtSequenceType.None
+  nameWithType: VtSequenceType.None
+- uid: VT.NET.Tools.VtSequenceType.OSC
+  name: OSC
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_OSC
+  commentId: F:VT.NET.Tools.VtSequenceType.OSC
+  fullName: VT.NET.Tools.VtSequenceType.OSC
+  nameWithType: VtSequenceType.OSC
+- uid: VT.NET.Tools.VtSequenceType.PM
+  name: PM
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_PM
+  commentId: F:VT.NET.Tools.VtSequenceType.PM
+  fullName: VT.NET.Tools.VtSequenceType.PM
+  nameWithType: VtSequenceType.PM
