@@ -22,48 +22,48 @@
  * SOFTWARE.
  */
 
-namespace VT.NET
+namespace VT.NET.Tools
 {
-    public static class RegexVTExpressions
+    /// <summary>
+    /// Denotes the VT sequence type
+    /// </summary>
+    public enum VtSequenceType
     {
+        /// <summary>
+        /// No VT sequence
+        /// </summary>
+        None = 0,
+        /// <summary>
+        /// VT sequence is one of the CSI sequences
+        /// </summary>
+        CSI = 1,
+        /// <summary>
+        /// VT sequence is one of the OSC sequences
+        /// </summary>
+        OSC = 2,
+        /// <summary>
+        /// VT sequence is one of the ESC sequences
+        /// </summary>
+        ESC = 4,
+        /// <summary>
+        /// VT sequence is one of the APC sequences
+        /// </summary>
+        APC = 8,
+        /// <summary>
+        /// VT sequence is one of the DCS sequences
+        /// </summary>
+        DCS = 16,
+        /// <summary>
+        /// VT sequence is one of the PM sequences
+        /// </summary>
+        PM = 32,
+        /// <summary>
+        /// VT sequence is one of the C1 sequences
+        /// </summary>
+        C1 = 64,
         /// <summary>
         /// All VT sequences
         /// </summary>
-        public static string AllVTSequences { get => @"(\x9D|\x1B\]).+(\x07|\x9c)|\x1b [F-Nf-n]|\x1b#[3-8]|\x1b%[@Gg]|\x1b[()*+][A-Za-z0-9=`<>]|\x1b[()*+]""[>4?]|\x1b[()*+]%[0-6=]|\x1b[()*+]&[4-5]|\x1b[-.\/][ABFHLM]|\x1b[6-9Fcl-o=>\|\}~]|(\x9f|\x1b_).+\x9c|(\x90|\x1bP).+\x9c|(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~]|(\x9e|\x1b\^).+\x9c|\x1b[DEHMNOVWXYZ78]"; }
-
-        /// <summary>
-        /// CSI sequences
-        /// </summary>
-        public static string CSISequences { get => @"(\x9B|\x1B\[)[0-?]*[ -\/]*[@-~]"; }
-
-        /// <summary>
-        /// OSC sequences
-        /// </summary>
-        public static string OSCSequences { get => @"(\x9D|\x1B\]).+(\x07|\x9c)"; }
-
-        /// <summary>
-        /// ESC sequences
-        /// </summary>
-        public static string ESCSequences { get => @"\x1b [F-Nf-n]|\x1b#[3-8]|\x1b%[@Gg]|\x1b[()*+][A-Za-z0-9=`<>]|\x1b[()*+]""[>4?]|\x1b[()*+]%[0-6=]|\x1b[()*+]&[4-5]|\x1b[-.\/][ABFHLM]|\x1b[6-9Fcl-o=>\|\}~]"; }
-
-        /// <summary>
-        /// APC sequences
-        /// </summary>
-        public static string APCSequences { get => @"(\x9f|\x1b_).+\x9c"; }
-
-        /// <summary>
-        /// DCS sequences
-        /// </summary>
-        public static string DCSSequences { get => @"(\x90|\x1bP).+\x9c"; }
-
-        /// <summary>
-        /// PM sequences
-        /// </summary>
-        public static string PMSequences { get => @"(\x9e|\x1b\^).+\x9c"; }
-
-        /// <summary>
-        /// C1 sequences
-        /// </summary>
-        public static string C1Sequences { get => @"\x1b[DEHMNOVWXYZ78]"; }
+        All = CSI + OSC + ESC + APC + DCS + PM + C1,
     }
 }
