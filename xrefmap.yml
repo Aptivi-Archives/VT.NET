@@ -123,6 +123,19 @@ references:
   commentId: T:VT.NET.Tools.VtSequenceTools
   fullName: VT.NET.Tools.VtSequenceTools
   nameWithType: VtSequenceTools
+- uid: VT.NET.Tools.VtSequenceTools.DetermineTypeFromText(System.String)
+  name: DetermineTypeFromText(String)
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_DetermineTypeFromText_System_String_
+  commentId: M:VT.NET.Tools.VtSequenceTools.DetermineTypeFromText(System.String)
+  fullName: VT.NET.Tools.VtSequenceTools.DetermineTypeFromText(System.String)
+  nameWithType: VtSequenceTools.DetermineTypeFromText(String)
+- uid: VT.NET.Tools.VtSequenceTools.DetermineTypeFromText*
+  name: DetermineTypeFromText
+  href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_DetermineTypeFromText_
+  commentId: Overload:VT.NET.Tools.VtSequenceTools.DetermineTypeFromText
+  isSpec: "True"
+  fullName: VT.NET.Tools.VtSequenceTools.DetermineTypeFromText
+  nameWithType: VtSequenceTools.DetermineTypeFromText
 - uid: VT.NET.Tools.VtSequenceTools.FilterVTSequences(System.String,System.String,VT.NET.Tools.VtSequenceType,RegexOptions)
   name: FilterVTSequences(String, String, VtSequenceType, RegexOptions)
   href: api/VT.NET.Tools.VtSequenceTools.html#VT_NET_Tools_VtSequenceTools_FilterVTSequences_System_String_System_String_VT_NET_Tools_VtSequenceType_RegexOptions_
