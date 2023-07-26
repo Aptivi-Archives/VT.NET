@@ -24,6 +24,9 @@
 
 namespace VT.NET.Tools
 {
+    /// <summary>
+    /// VT sequence regular expressions
+    /// </summary>
     public static class VtSequenceRegexes
     {
         /// <summary>
