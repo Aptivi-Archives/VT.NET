@@ -17,6 +17,126 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.ApcSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.ApcSequences.html",
+          "hash": "eCVlqHP6Iq7fwcdkrZ6Zkifvc0gKHrdgxB+z6dNKxok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.C1Sequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.C1Sequences.html",
+          "hash": "UTUFDVTjQpIpmlBsAd8b5WSmGlWW+Q9knmPVXj6yuM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.CsiSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.CsiSequences.html",
+          "hash": "HoU0Dg4bukfWM5GxVItp5wRvbCJIzHkA+0HWYTmnw78="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.DcsSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.DcsSequences.html",
+          "hash": "5h2P57QCb0HrmCQ/j9Uw67bopKAjuOWrbpCizQb4McE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.EscSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.EscSequences.html",
+          "hash": "ZPVJKt7tihz/r8MHmVTQIjM+eDwZLsCQvEjtJ/FglwA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.OscSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.OscSequences.html",
+          "hash": "LSgaaBCuERPVuI/hBNTcBPBPN2WcIdToRN2Ci/JZ6oQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.PmSequences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.PmSequences.html",
+          "hash": "8bkzcTJv1PHasi6chZ0BjUjfzWnS1YvpwzmGlVi9mLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.Types.html",
+          "hash": "IKDNqEoZzbSnxXH+Hbc4pqB8T9MJiqlepKFeynbB3YM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.VtSequenceBasicChars.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.VtSequenceBasicChars.html",
+          "hash": "t/G82XgmtBxMZcEG00l8+6Nl8H33mQhlh8kbVp7n44o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.html",
+          "hash": "mENk50PKpKB4t/5T75iudpd3KLS4Tczo2PvZFhSMTq4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VT.NET.Tools.VtSequenceRegexes.yml",
       "output": {
         ".html": {
@@ -69,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Vy6fs8jgvAGgsTVFqdeqotJqfwn8/ohe+mQqlcM2op8="
+          "hash": "+5x939T3S2g4z3REr/mTdbZLZzHzS6KEN+w0MN/KEPY="
         }
       },
       "is_incremental": false,
@@ -93,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "zxyzWQ4DNt9pFbIMplhzyMRkxg9+YEtznPV6z/hfm9w="
+          "hash": "qwJV53V5Nel6EJOI1nWjGshOMA8gLnGFWKvyOEJcVHU="
         }
       },
       "is_incremental": false,
@@ -120,7 +240,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 14,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
