@@ -16,6 +16,8 @@
     
 *A VT sequence management library.*
 
+*NOTE: This library is being replaced by Terminaux.*
+
 <br>
 <br>
 
