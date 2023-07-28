@@ -33,7 +33,7 @@ namespace VT.NET.Builder.Types
     public static class ApcSequences
     {
         /// <summary>
-        /// [APC Pt ST] Regular expression for privacy message
+        /// [APC Pt ST] Regular expression for application program command
         /// </summary>
         public static string ApcApplicationProgramCommandSequenceRegex { get => @"(\x9f|\x1b_).+\x9c"; }
         

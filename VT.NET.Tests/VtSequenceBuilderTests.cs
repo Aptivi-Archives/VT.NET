@@ -23,7 +23,6 @@
  */
 
 using Shouldly;
-using System.Text.RegularExpressions;
 using VT.NET.Builder;
 using VT.NET.Builder.Types;
 
@@ -2095,6 +2094,37 @@ namespace VT.NET.Tests
             string actual = "";
             Should.NotThrow(() => actual = PmSequences.GeneratePmPrivacyMessage(proprietaryCommands));
             actual.ShouldBe(result);
+        }
+
+        /// <summary>
+        /// Builds VT sequence with arguments
+        /// </summary>
+        [Test]
+        [TestCase(VtSequenceSpecificTypes.CsiEraseRectangularArea, 1, 3, 3, 3, ExpectedResult = $"\x1B[1;3;3;3$z")]
+        [TestCase(VtSequenceSpecificTypes.PmPrivacyMessage, "Kermit", ExpectedResult = $"\x1B^Kermit\x9C")]
+        [TestCase(VtSequenceSpecificTypes.OscOperatingSystemCommand, "0;Hello", ExpectedResult = $"\x1B]0;Hello\x07")]
+        [TestCase(VtSequenceSpecificTypes.OscOperatingSystemCommandAlt, "0;Hello", ExpectedResult = $"\x1B]0;Hello\x9C")]
+        [TestCase(VtSequenceSpecificTypes.EscDesignateG2CharacterSetAlt, "Z", ExpectedResult = $"\x1B,Z")]
+        [TestCase(VtSequenceSpecificTypes.DcsRequestResourceValues, "776964654368617273", ExpectedResult = $"\x1BP+Q776964654368617273\x9C")]
+        [TestCase(VtSequenceSpecificTypes.ApcApplicationProgramCommand, "Kermit", ExpectedResult = $"\x1B_Kermit\x9C")]
+        public static string TestBuildVtSequence(VtSequenceSpecificTypes specificType, params object[] arguments)
+        {
+            string actual = "";
+            Should.NotThrow(() => actual = VtSequenceBuilderTools.BuildVtSequence(specificType, arguments));
+            return actual;
+        }
+
+        /// <summary>
+        /// Builds VT sequence without arguments
+        /// </summary>
+        [Test]
+        [TestCase(VtSequenceSpecificTypes.EscInvokeG1CharacterSetGr, ExpectedResult = $"\x1B~")]
+        [TestCase(VtSequenceSpecificTypes.C1ReturnTerminalId, ExpectedResult = $"\x1BZ")]
+        public static string TestBuildVtSequenceNoArgs(VtSequenceSpecificTypes specificType)
+        {
+            string actual = "";
+            Should.NotThrow(() => actual = VtSequenceBuilderTools.BuildVtSequence(specificType));
+            return actual;
         }
     }
 }

@@ -33,9 +33,14 @@ namespace VT.NET.Builder.Types
     public static class OscSequences
     {
         /// <summary>
-        /// [OSC Ps ; Pt BEL / ST] Regular expression for operating system command
+        /// [OSC Ps ; Pt BEL] Regular expression for operating system command
         /// </summary>
-        public static string OscOperatingSystemCommandSequenceRegex { get => @"(\x9D|\x1B\]).+(\x07|\x9c)"; }
+        public static string OscOperatingSystemCommandSequenceRegex { get => @"(\x9D|\x1B\]).+[\x07]"; }
+
+        /// <summary>
+        /// [OSC Ps ; Pt ST] Regular expression for operating system command
+        /// </summary>
+        public static string OscOperatingSystemCommandAltSequenceRegex { get => @"(\x9D|\x1B\]).+[\x9c]"; }
         
         /// <summary>
         /// [OSC Ps ; Pt BEL] Generates an escape sequence that can be used for the console
@@ -55,7 +60,7 @@ namespace VT.NET.Builder.Types
         public static string GenerateOscOperatingSystemCommandAlt(string proprietaryCommands)
 	    {
 		    string result = $"{VtSequenceBasicChars.EscapeChar}]{proprietaryCommands}{VtSequenceBasicChars.StChar}";
-	        var regexParser = new Regex(OscOperatingSystemCommandSequenceRegex);
+	        var regexParser = new Regex(OscOperatingSystemCommandAltSequenceRegex);
 		    if (!regexParser.IsMatch(result))
 		        throw new Exception("VT.NET failed to generate a working VT sequence. Make sure that you've specified values correctly.");
 		    return result;
