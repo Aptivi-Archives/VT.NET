@@ -194,22 +194,22 @@ namespace VT.NET.Tools
             string sequenceFilterRegex = VtSequenceRegexes.AllVTSequences;
             switch (type)
             {
-                case VtSequenceType.CSI:
+                case VtSequenceType.Csi:
                     sequenceFilterRegex = VtSequenceRegexes.CSISequences;
                     break;
-                case VtSequenceType.OSC:
+                case VtSequenceType.Osc:
                     sequenceFilterRegex = VtSequenceRegexes.OSCSequences;
                     break;
-                case VtSequenceType.ESC:
+                case VtSequenceType.Esc:
                     sequenceFilterRegex = VtSequenceRegexes.ESCSequences;
                     break;
-                case VtSequenceType.APC:
+                case VtSequenceType.Apc:
                     sequenceFilterRegex = VtSequenceRegexes.APCSequences;
                     break;
-                case VtSequenceType.DCS:
+                case VtSequenceType.Dcs:
                     sequenceFilterRegex = VtSequenceRegexes.DCSSequences;
                     break;
-                case VtSequenceType.PM:
+                case VtSequenceType.Pm:
                     sequenceFilterRegex = VtSequenceRegexes.PMSequences;
                     break;
                 case VtSequenceType.C1:

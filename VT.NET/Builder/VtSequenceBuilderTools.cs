@@ -23,7 +23,9 @@
  */
 
 using System;
+using System.Linq;
 using System.Text.RegularExpressions;
+using VT.NET.Tools;
 
 namespace VT.NET.Builder
 {
@@ -57,6 +59,44 @@ namespace VT.NET.Builder
             // Now, get the sequence
             result = sequenceRegexGenerator.Invoke(null, arguments).ToString();
             return result;
+        }
+
+        /// <summary>
+        /// Determines the VT sequence type from the given sequence
+        /// </summary>
+        /// <param name="sequence">The sequence to query</param>
+        /// <returns>A tuple of (<see cref="VtSequenceType"/>, <see cref="VtSequenceSpecificTypes"/>) containing information about a sequence type and a sequence command type</returns>
+        /// <exception cref="Exception"></exception>
+        public static (VtSequenceType, VtSequenceSpecificTypes) DetermineTypeFromSequence(string sequence)
+        {
+            // First, get all the VT sequence types except "None" and "All"
+            var seqTypeEnumNames = Type.GetType($"VT.NET.Tools.{nameof(VtSequenceType)}").GetEnumNames().Where((enumeration) => enumeration != "None" && enumeration != "All").ToArray();
+
+            // Then, iterate through all the sequence types until we find an appropriate one that matches the sequence
+            foreach (string seqType in seqTypeEnumNames)
+            {
+                // Get the class that contains regexes of all the sequences
+                string typeName = $"{seqType}Sequences";
+                var sequencesType = Type.GetType($"VT.NET.Builder.Types.{typeName}");
+                var sequenceRegexes = sequencesType.GetProperties();
+                foreach (var property in sequenceRegexes)
+                {
+                    // Now, get the appropriate regex to check to see if there is a match.
+                    string regexValue = property.GetValue(null).ToString();
+                    var regex = new Regex(regexValue);
+                    if (regex.IsMatch(sequence))
+                    {
+                        // It's a match! Get the type and the specific type of the sequence and return them
+                        string enumName = $"{property.Name.Replace("SequenceRegex", "")}";
+                        VtSequenceType sequenceType = (VtSequenceType)Enum.Parse(typeof(VtSequenceType), seqType);
+                        VtSequenceSpecificTypes sequenceSpecificType = (VtSequenceSpecificTypes)Enum.Parse(typeof(VtSequenceSpecificTypes), enumName);
+                        return (sequenceType, sequenceSpecificType);
+                    }
+                }
+            }
+
+            // If still not found, then throw
+            throw new Exception("Can't determine type from this sequence. Make sure that you've specified it correctly.");
         }
     }
 }

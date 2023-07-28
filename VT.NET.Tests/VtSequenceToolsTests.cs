@@ -56,7 +56,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}_1{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.APC;
+            VtSequenceType requestedType = VtSequenceType.Apc;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence1}Hello!", requestedType).ShouldNotBeEmpty();
@@ -85,7 +85,7 @@ namespace VT.NET.Tests
         {
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}[37m";
-            VtSequenceType requestedType = VtSequenceType.CSI;
+            VtSequenceType requestedType = VtSequenceType.Csi;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence1}Hello!", requestedType).ShouldNotBeEmpty();
@@ -100,7 +100,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}P3{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.DCS;
+            VtSequenceType requestedType = VtSequenceType.Dcs;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence1}Hello!", requestedType).ShouldNotBeEmpty();
@@ -115,7 +115,7 @@ namespace VT.NET.Tests
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}#4";
             string vtSequence2 = $"{EscapeChar}%G";
-            VtSequenceType requestedType = VtSequenceType.ESC;
+            VtSequenceType requestedType = VtSequenceType.Esc;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence2}Hello!", requestedType).ShouldNotBeEmpty();
@@ -130,7 +130,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}]0;Title{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.OSC;
+            VtSequenceType requestedType = VtSequenceType.Osc;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence1}Hello!", requestedType).ShouldNotBeEmpty();
@@ -145,7 +145,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}^Kermit{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.PM;
+            VtSequenceType requestedType = VtSequenceType.Pm;
             VtSequenceTools.SplitVTSequences($"Hello!{vtSequence1}", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldNotBeEmpty();
             VtSequenceTools.SplitVTSequences($"{vtSequence1}Hello!", requestedType).ShouldNotBeEmpty();
@@ -177,7 +177,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}_1{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.APC;
+            VtSequenceType requestedType = VtSequenceType.Apc;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence1}Hello!", "", requestedType).ShouldBe("Hello!");
         }
@@ -205,7 +205,7 @@ namespace VT.NET.Tests
         {
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}[37m";
-            VtSequenceType requestedType = VtSequenceType.CSI;
+            VtSequenceType requestedType = VtSequenceType.Csi;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"Hel{vtSequence1}lo!", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence1}Hello!", "", requestedType).ShouldBe("Hello!");
@@ -220,7 +220,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}P3{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.DCS;
+            VtSequenceType requestedType = VtSequenceType.Dcs;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"Hel{vtSequence1}lo!", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence1}Hello!", "", requestedType).ShouldBe("Hello!");
@@ -235,7 +235,7 @@ namespace VT.NET.Tests
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}#4";
             string vtSequence2 = $"{EscapeChar}%G";
-            VtSequenceType requestedType = VtSequenceType.ESC;
+            VtSequenceType requestedType = VtSequenceType.Esc;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"Hel{vtSequence1}lo!", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence2}Hello!", "", requestedType).ShouldBe("Hello!");
@@ -250,7 +250,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}]0;Title{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.OSC;
+            VtSequenceType requestedType = VtSequenceType.Osc;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"Hel{vtSequence1}lo!", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence1}Hello!", "", requestedType).ShouldBe("Hello!");
@@ -265,7 +265,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}^Kermit{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.PM;
+            VtSequenceType requestedType = VtSequenceType.Pm;
             VtSequenceTools.FilterVTSequences($"Hello!{vtSequence1}", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"Hel{vtSequence1}lo!", "", requestedType).ShouldBe("Hello!");
             VtSequenceTools.FilterVTSequences($"{vtSequence1}Hello!", "", requestedType).ShouldBe("Hello!");
@@ -309,7 +309,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}_1{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.APC;
+            VtSequenceType requestedType = VtSequenceType.Apc;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence1}Hello!", requestedType);
@@ -362,7 +362,7 @@ namespace VT.NET.Tests
         {
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}[37m";
-            VtSequenceType requestedType = VtSequenceType.CSI;
+            VtSequenceType requestedType = VtSequenceType.Csi;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence1}Hello!", requestedType);
@@ -389,7 +389,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}P3{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.DCS;
+            VtSequenceType requestedType = VtSequenceType.Dcs;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence1}Hello!", requestedType);
@@ -416,7 +416,7 @@ namespace VT.NET.Tests
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}#4";
             string vtSequence2 = $"{EscapeChar}%G";
-            VtSequenceType requestedType = VtSequenceType.ESC;
+            VtSequenceType requestedType = VtSequenceType.Esc;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence2}Hello!", requestedType);
@@ -443,7 +443,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}]0;Title{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.OSC;
+            VtSequenceType requestedType = VtSequenceType.Osc;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence1}Hello!", requestedType);
@@ -470,7 +470,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}^Kermit{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.PM;
+            VtSequenceType requestedType = VtSequenceType.Pm;
             MatchCollection[] matchCollections1 = VtSequenceTools.MatchVTSequences($"Hello!{vtSequence1}", requestedType);
             MatchCollection[] matchCollections2 = VtSequenceTools.MatchVTSequences($"Hel{vtSequence1}lo!", requestedType);
             MatchCollection[] matchCollections3 = VtSequenceTools.MatchVTSequences($"{vtSequence1}Hello!", requestedType);
@@ -514,7 +514,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}_1{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.APC;
+            VtSequenceType requestedType = VtSequenceType.Apc;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence1}Hello!", requestedType).ShouldBeTrue();
@@ -543,7 +543,7 @@ namespace VT.NET.Tests
         {
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}[37m";
-            VtSequenceType requestedType = VtSequenceType.CSI;
+            VtSequenceType requestedType = VtSequenceType.Csi;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence1}Hello!", requestedType).ShouldBeTrue();
@@ -558,7 +558,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}P3{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.DCS;
+            VtSequenceType requestedType = VtSequenceType.Dcs;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence1}Hello!", requestedType).ShouldBeTrue();
@@ -573,7 +573,7 @@ namespace VT.NET.Tests
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}#4";
             string vtSequence2 = $"{EscapeChar}%G";
-            VtSequenceType requestedType = VtSequenceType.ESC;
+            VtSequenceType requestedType = VtSequenceType.Esc;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence2}Hello!", requestedType).ShouldBeTrue();
@@ -588,7 +588,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}]0;Title{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.OSC;
+            VtSequenceType requestedType = VtSequenceType.Osc;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence1}Hello!", requestedType).ShouldBeTrue();
@@ -603,7 +603,7 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}^Kermit{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.PM;
+            VtSequenceType requestedType = VtSequenceType.Pm;
             VtSequenceTools.IsMatchVTSequences($"Hello!{vtSequence1}", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"Hel{vtSequence1}lo!", requestedType).ShouldBeTrue();
             VtSequenceTools.IsMatchVTSequences($"{vtSequence1}Hello!", requestedType).ShouldBeTrue();
@@ -627,9 +627,9 @@ namespace VT.NET.Tests
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.CSI].ShouldBeTrue();
-            matchCollections2[VtSequenceType.APC].ShouldBeTrue();
-            matchCollections3[VtSequenceType.OSC].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Csi].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Apc].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Osc].ShouldBeTrue();
         }
 
         /// <summary>
@@ -641,16 +641,16 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}_1{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.APC;
+            VtSequenceType requestedType = VtSequenceType.Apc;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence1}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.APC].ShouldBeTrue();
-            matchCollections2[VtSequenceType.APC].ShouldBeTrue();
-            matchCollections3[VtSequenceType.APC].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Apc].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Apc].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Apc].ShouldBeTrue();
         }
 
         /// <summary>
@@ -682,16 +682,16 @@ namespace VT.NET.Tests
         {
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}[37m";
-            VtSequenceType requestedType = VtSequenceType.CSI;
+            VtSequenceType requestedType = VtSequenceType.Csi;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence1}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.CSI].ShouldBeTrue();
-            matchCollections2[VtSequenceType.CSI].ShouldBeTrue();
-            matchCollections3[VtSequenceType.CSI].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Csi].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Csi].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Csi].ShouldBeTrue();
         }
 
         /// <summary>
@@ -703,16 +703,16 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}P3{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.DCS;
+            VtSequenceType requestedType = VtSequenceType.Dcs;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence1}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.DCS].ShouldBeTrue();
-            matchCollections2[VtSequenceType.DCS].ShouldBeTrue();
-            matchCollections3[VtSequenceType.DCS].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Dcs].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Dcs].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Dcs].ShouldBeTrue();
         }
 
         /// <summary>
@@ -724,16 +724,16 @@ namespace VT.NET.Tests
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}#4";
             string vtSequence2 = $"{EscapeChar}%G";
-            VtSequenceType requestedType = VtSequenceType.ESC;
+            VtSequenceType requestedType = VtSequenceType.Esc;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence2}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.ESC].ShouldBeTrue();
-            matchCollections2[VtSequenceType.ESC].ShouldBeTrue();
-            matchCollections3[VtSequenceType.ESC].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Esc].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Esc].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Esc].ShouldBeTrue();
         }
 
         /// <summary>
@@ -745,16 +745,16 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}]0;Title{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.OSC;
+            VtSequenceType requestedType = VtSequenceType.Osc;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence1}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.OSC].ShouldBeTrue();
-            matchCollections2[VtSequenceType.OSC].ShouldBeTrue();
-            matchCollections3[VtSequenceType.OSC].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Osc].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Osc].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Osc].ShouldBeTrue();
         }
 
         /// <summary>
@@ -766,16 +766,16 @@ namespace VT.NET.Tests
             char StringTerminator = Convert.ToChar(0x9c);
             char EscapeChar = Convert.ToChar(0x1b);
             string vtSequence1 = $"{EscapeChar}^Kermit{StringTerminator}";
-            VtSequenceType requestedType = VtSequenceType.PM;
+            VtSequenceType requestedType = VtSequenceType.Pm;
             var matchCollections1 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hello!{vtSequence1}", requestedType);
             var matchCollections2 = VtSequenceTools.IsMatchVTSequencesSpecific($"Hel{vtSequence1}lo!", requestedType);
             var matchCollections3 = VtSequenceTools.IsMatchVTSequencesSpecific($"{vtSequence1}Hello!", requestedType);
             matchCollections1.ShouldNotBeEmpty();
             matchCollections2.ShouldNotBeEmpty();
             matchCollections3.ShouldNotBeEmpty();
-            matchCollections1[VtSequenceType.PM].ShouldBeTrue();
-            matchCollections2[VtSequenceType.PM].ShouldBeTrue();
-            matchCollections3[VtSequenceType.PM].ShouldBeTrue();
+            matchCollections1[VtSequenceType.Pm].ShouldBeTrue();
+            matchCollections2[VtSequenceType.Pm].ShouldBeTrue();
+            matchCollections3[VtSequenceType.Pm].ShouldBeTrue();
         }
 
         /// <summary>
@@ -790,9 +790,9 @@ namespace VT.NET.Tests
             string vtSequence1 = $"{EscapeChar}[38;5;43m";
             string vtSequence2 = $"{EscapeChar}_1{StringTerminator}";
             string vtSequence3 = $"{EscapeChar}]0;Hi!{BellChar}";
-            VtSequenceTools.DetermineTypeFromText($"Hello!{vtSequence1}").ShouldBe(VtSequenceType.CSI);
-            VtSequenceTools.DetermineTypeFromText($"Hel{vtSequence2}lo!").ShouldBe(VtSequenceType.APC);
-            VtSequenceTools.DetermineTypeFromText($"{vtSequence3}Hello!").ShouldBe(VtSequenceType.OSC);
+            VtSequenceTools.DetermineTypeFromText($"Hello!{vtSequence1}").ShouldBe(VtSequenceType.Csi);
+            VtSequenceTools.DetermineTypeFromText($"Hel{vtSequence2}lo!").ShouldBe(VtSequenceType.Apc);
+            VtSequenceTools.DetermineTypeFromText($"{vtSequence3}Hello!").ShouldBe(VtSequenceType.Osc);
             VtSequenceTools.DetermineTypeFromText($"Hello!").ShouldBe(VtSequenceType.None);
         }
     }

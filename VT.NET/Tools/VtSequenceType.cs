@@ -36,27 +36,27 @@ namespace VT.NET.Tools
         /// <summary>
         /// VT sequence is one of the CSI sequences
         /// </summary>
-        CSI = 1,
+        Csi = 1,
         /// <summary>
         /// VT sequence is one of the OSC sequences
         /// </summary>
-        OSC = 2,
+        Osc = 2,
         /// <summary>
         /// VT sequence is one of the ESC sequences
         /// </summary>
-        ESC = 4,
+        Esc = 4,
         /// <summary>
         /// VT sequence is one of the APC sequences
         /// </summary>
-        APC = 8,
+        Apc = 8,
         /// <summary>
         /// VT sequence is one of the DCS sequences
         /// </summary>
-        DCS = 16,
+        Dcs = 16,
         /// <summary>
         /// VT sequence is one of the PM sequences
         /// </summary>
-        PM = 32,
+        Pm = 32,
         /// <summary>
         /// VT sequence is one of the C1 sequences
         /// </summary>
@@ -64,6 +64,6 @@ namespace VT.NET.Tools
         /// <summary>
         /// All VT sequences
         /// </summary>
-        All = CSI + OSC + ESC + APC + DCS + PM + C1,
+        All = Csi + Osc + Esc + Apc + Dcs + Pm + C1,
     }
 }
