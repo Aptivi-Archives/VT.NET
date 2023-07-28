@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VT.NET.Builder.Types.ApcSequences.html",
-          "hash": "eCVlqHP6Iq7fwcdkrZ6Zkifvc0gKHrdgxB+z6dNKxok="
+          "hash": "56iQbol4T0hpDVur5gVPzjTH9f+LYCTwK7evHIgjgZY="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/VT.NET.Builder.Types.OscSequences.html",
-          "hash": "LSgaaBCuERPVuI/hBNTcBPBPN2WcIdToRN2Ci/JZ6oQ="
+          "hash": "mUzLj6XgMcEp7ScdtgCEDhhkKVNcfjNE2VCN63eJD5Q="
         }
       },
       "is_incremental": false,
@@ -125,11 +125,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.VtSequenceBuilderTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.VtSequenceBuilderTools.html",
+          "hash": "phPyPYEHvNeeFvwrP4n3tzAtKbUV6vVof5WMYY4Swrs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/VT.NET.Builder.VtSequenceSpecificTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/VT.NET.Builder.VtSequenceSpecificTypes.html",
+          "hash": "TFtnR1NPqvyS/x1/JjNb+8vtrxkFzpkc3PnjtVrRhcU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/VT.NET.Builder.yml",
       "output": {
         ".html": {
           "relative_path": "api/VT.NET.Builder.html",
-          "hash": "mENk50PKpKB4t/5T75iudpd3KLS4Tczo2PvZFhSMTq4="
+          "hash": "z1RACuhK0+C9G7uHUMRkUZuLP7GyJUq7XCP8sccjR80="
         }
       },
       "is_incremental": false,
@@ -189,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "+5x939T3S2g4z3REr/mTdbZLZzHzS6KEN+w0MN/KEPY="
+          "hash": "+UEnjFbdCBjKG1LfaL1RNLelncD1gIw7wlkK0k94xrE="
         }
       },
       "is_incremental": false,
@@ -240,7 +264,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 16,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
