@@ -52,7 +52,7 @@
   "api/VT.NET.Builder.VtSequenceBuilderTools.html": {
     "href": "api/VT.NET.Builder.VtSequenceBuilderTools.html",
     "title": "Class VtSequenceBuilderTools | VT.NET API - Aptivi",
-    "keywords": "Class VtSequenceBuilderTools VT sequence builder tools Inheritance System.Object VtSequenceBuilderTools Namespace : VT.NET.Builder Assembly : VT.NET.dll Syntax public static class VtSequenceBuilderTools : object Methods BuildVtSequence(VtSequenceSpecificTypes, Object[]) Builds a VT sequence using specific types Declaration public static string BuildVtSequence(VtSequenceSpecificTypes specificType, params object[] arguments) Parameters Type Name Description VtSequenceSpecificTypes specificType System.Object [] arguments Returns Type Description System.String"
+    "keywords": "Class VtSequenceBuilderTools VT sequence builder tools Inheritance System.Object VtSequenceBuilderTools Namespace : VT.NET.Builder Assembly : VT.NET.dll Syntax public static class VtSequenceBuilderTools : object Methods BuildVtSequence(VtSequenceSpecificTypes, Object[]) Builds a VT sequence using specific types Declaration public static string BuildVtSequence(VtSequenceSpecificTypes specificType, params object[] arguments) Parameters Type Name Description VtSequenceSpecificTypes specificType System.Object [] arguments Returns Type Description System.String DetermineTypeFromSequence(String) Determines the VT sequence type from the given sequence Declaration public static (VtSequenceType, VtSequenceSpecificTypes) DetermineTypeFromSequence(string sequence) Parameters Type Name Description System.String sequence The sequence to query Returns Type Description System.ValueTuple < VtSequenceType , VtSequenceSpecificTypes > A tuple of ( VtSequenceType , VtSequenceSpecificTypes ) containing information about a sequence type and a sequence command type"
   },
   "api/VT.NET.Builder.VtSequenceSpecificTypes.html": {
     "href": "api/VT.NET.Builder.VtSequenceSpecificTypes.html",
@@ -77,7 +77,7 @@
   "api/VT.NET.Tools.VtSequenceType.html": {
     "href": "api/VT.NET.Tools.VtSequenceType.html",
     "title": "Enum VtSequenceType | VT.NET API - Aptivi",
-    "keywords": "Enum VtSequenceType Denotes the VT sequence type Namespace : VT.NET.Tools Assembly : VT.NET.dll Syntax public enum VtSequenceType : int Fields Name Description All All VT sequences APC VT sequence is one of the APC sequences C1 VT sequence is one of the C1 sequences CSI VT sequence is one of the CSI sequences DCS VT sequence is one of the DCS sequences ESC VT sequence is one of the ESC sequences None No VT sequence OSC VT sequence is one of the OSC sequences PM VT sequence is one of the PM sequences"
+    "keywords": "Enum VtSequenceType Denotes the VT sequence type Namespace : VT.NET.Tools Assembly : VT.NET.dll Syntax public enum VtSequenceType : int Fields Name Description All All VT sequences Apc VT sequence is one of the APC sequences C1 VT sequence is one of the C1 sequences Csi VT sequence is one of the CSI sequences Dcs VT sequence is one of the DCS sequences Esc VT sequence is one of the ESC sequences None No VT sequence Osc VT sequence is one of the OSC sequences Pm VT sequence is one of the PM sequences"
   },
   "index.html": {
     "href": "index.html",

@@ -4371,6 +4371,19 @@ references:
   isSpec: "True"
   fullName: VT.NET.Builder.VtSequenceBuilderTools.BuildVtSequence
   nameWithType: VtSequenceBuilderTools.BuildVtSequence
+- uid: VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence(System.String)
+  name: DetermineTypeFromSequence(String)
+  href: api/VT.NET.Builder.VtSequenceBuilderTools.html#VT_NET_Builder_VtSequenceBuilderTools_DetermineTypeFromSequence_System_String_
+  commentId: M:VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence(System.String)
+  fullName: VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence(System.String)
+  nameWithType: VtSequenceBuilderTools.DetermineTypeFromSequence(String)
+- uid: VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence*
+  name: DetermineTypeFromSequence
+  href: api/VT.NET.Builder.VtSequenceBuilderTools.html#VT_NET_Builder_VtSequenceBuilderTools_DetermineTypeFromSequence_
+  commentId: Overload:VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence
+  isSpec: "True"
+  fullName: VT.NET.Builder.VtSequenceBuilderTools.DetermineTypeFromSequence
+  nameWithType: VtSequenceBuilderTools.DetermineTypeFromSequence
 - uid: VT.NET.Builder.VtSequenceSpecificTypes
   name: VtSequenceSpecificTypes
   href: api/VT.NET.Builder.VtSequenceSpecificTypes.html
@@ -5580,51 +5593,51 @@ references:
   commentId: F:VT.NET.Tools.VtSequenceType.All
   fullName: VT.NET.Tools.VtSequenceType.All
   nameWithType: VtSequenceType.All
-- uid: VT.NET.Tools.VtSequenceType.APC
-  name: APC
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_APC
-  commentId: F:VT.NET.Tools.VtSequenceType.APC
-  fullName: VT.NET.Tools.VtSequenceType.APC
-  nameWithType: VtSequenceType.APC
+- uid: VT.NET.Tools.VtSequenceType.Apc
+  name: Apc
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Apc
+  commentId: F:VT.NET.Tools.VtSequenceType.Apc
+  fullName: VT.NET.Tools.VtSequenceType.Apc
+  nameWithType: VtSequenceType.Apc
 - uid: VT.NET.Tools.VtSequenceType.C1
   name: C1
   href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_C1
   commentId: F:VT.NET.Tools.VtSequenceType.C1
   fullName: VT.NET.Tools.VtSequenceType.C1
   nameWithType: VtSequenceType.C1
-- uid: VT.NET.Tools.VtSequenceType.CSI
-  name: CSI
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_CSI
-  commentId: F:VT.NET.Tools.VtSequenceType.CSI
-  fullName: VT.NET.Tools.VtSequenceType.CSI
-  nameWithType: VtSequenceType.CSI
-- uid: VT.NET.Tools.VtSequenceType.DCS
-  name: DCS
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_DCS
-  commentId: F:VT.NET.Tools.VtSequenceType.DCS
-  fullName: VT.NET.Tools.VtSequenceType.DCS
-  nameWithType: VtSequenceType.DCS
-- uid: VT.NET.Tools.VtSequenceType.ESC
-  name: ESC
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_ESC
-  commentId: F:VT.NET.Tools.VtSequenceType.ESC
-  fullName: VT.NET.Tools.VtSequenceType.ESC
-  nameWithType: VtSequenceType.ESC
+- uid: VT.NET.Tools.VtSequenceType.Csi
+  name: Csi
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Csi
+  commentId: F:VT.NET.Tools.VtSequenceType.Csi
+  fullName: VT.NET.Tools.VtSequenceType.Csi
+  nameWithType: VtSequenceType.Csi
+- uid: VT.NET.Tools.VtSequenceType.Dcs
+  name: Dcs
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Dcs
+  commentId: F:VT.NET.Tools.VtSequenceType.Dcs
+  fullName: VT.NET.Tools.VtSequenceType.Dcs
+  nameWithType: VtSequenceType.Dcs
+- uid: VT.NET.Tools.VtSequenceType.Esc
+  name: Esc
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Esc
+  commentId: F:VT.NET.Tools.VtSequenceType.Esc
+  fullName: VT.NET.Tools.VtSequenceType.Esc
+  nameWithType: VtSequenceType.Esc
 - uid: VT.NET.Tools.VtSequenceType.None
   name: None
   href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_None
   commentId: F:VT.NET.Tools.VtSequenceType.None
   fullName: VT.NET.Tools.VtSequenceType.None
   nameWithType: VtSequenceType.None
-- uid: VT.NET.Tools.VtSequenceType.OSC
-  name: OSC
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_OSC
-  commentId: F:VT.NET.Tools.VtSequenceType.OSC
-  fullName: VT.NET.Tools.VtSequenceType.OSC
-  nameWithType: VtSequenceType.OSC
-- uid: VT.NET.Tools.VtSequenceType.PM
-  name: PM
-  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_PM
-  commentId: F:VT.NET.Tools.VtSequenceType.PM
-  fullName: VT.NET.Tools.VtSequenceType.PM
-  nameWithType: VtSequenceType.PM
+- uid: VT.NET.Tools.VtSequenceType.Osc
+  name: Osc
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Osc
+  commentId: F:VT.NET.Tools.VtSequenceType.Osc
+  fullName: VT.NET.Tools.VtSequenceType.Osc
+  nameWithType: VtSequenceType.Osc
+- uid: VT.NET.Tools.VtSequenceType.Pm
+  name: Pm
+  href: api/VT.NET.Tools.VtSequenceType.html#VT_NET_Tools_VtSequenceType_Pm
+  commentId: F:VT.NET.Tools.VtSequenceType.Pm
+  fullName: VT.NET.Tools.VtSequenceType.Pm
+  nameWithType: VtSequenceType.Pm
